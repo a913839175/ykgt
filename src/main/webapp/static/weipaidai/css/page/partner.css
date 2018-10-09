@@ -1,0 +1,25 @@
+@charset "utf-8";
+.contentright{width:890px;float:right;background:#fff;padding:16px;}
+.contentright h2{width:100%;height:74px;line-height:74px;text-align:center;font-size:24px;color:#212121;}
+.contentright h2 i{width:26px;height:2px;display:inline-block;background:#212121;vertical-align:middle;margin:0 10px;}
+.trade_null{padding:40px 0;text-align:center;}
+.certList{width:920px;}
+.cert-list{width:280px;height:270px;float:left;margin:0 26px 10px 0;}
+.list-pic{width:100%;height:220px;overflow:hidden;}
+.list-pic:hover img{opacity:0.8;}
+.list-title{width:100%;text-align:center;height:50px;line-height:50px;font-size:16px;color:#5e5e5e;}
+.bigbox{width:890px;border-bottom:1px dashed #dddddd;}
+.smallbox{margin-left:13px;width:852px;margin-bottom:40px;}
+.smallboxleft{width:522px;margin-top:34px;}
+.smalltitlez{width:522px;height:30px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.colorz{width:6px;height:20px;background:#7695fc;display:inline-block;vertical-align:middle;}
+.smalltitle01{color:#666666;font-size:20px;font-family:700;display:inline-block;vertical-align:middle;}
+.smallcontentz{width:514px;font-size:16px;color:#666666;text-align:justify;margin-top:10px;margin-left:8px;}
+.smallboxright{width:180px;height:180px;background:url(/static/weipaidai/images/partner01.png);margin-left:76px;margin-top:51px;}
+.rightwz02{background-position:0 -180px;}
+.rightwz03{background-position:0 -360px;}
+.rightwz04{background-position:0 -540px;}
+.rightwz05{background-position:0 -720px;}
+.rightwz06{background-position:0 -900px;}
+.rightwz07{background-position:0 -1080px;}
+.bborder{border:none;}

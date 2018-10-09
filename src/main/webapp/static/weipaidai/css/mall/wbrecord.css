@@ -1,0 +1,94 @@
+@charset "utf-8";
+.index{
+    color: #8e8d8d;;
+}
+.maincontent{
+    width: 1200px;
+    margin: 0 auto;
+}
+.protitle{
+    color: #8e8d8d;
+    font-size: 12.8px;
+    padding: 12px 0;
+}
+.contantz{
+    width: 1200px;
+    height: 820px;
+    margin: 0 auto;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.contantwz{
+    width: 1071px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.dqwb{
+    font-size: 14px;
+    color: #666666;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.dqwb span{
+    font-size: 20px;
+    color: #7478e6;
+}
+.tecontantz{
+    width: 1071px;
+    height: 39px;
+    border-bottom: 1px solid #7478e6;
+    overflow: hidden;
+}
+.tecontant_li{
+    width:139px;
+    height:39px;
+    display:block;
+    float: left;
+    border-top:1px solid #7478e6;
+    border-left:1px solid #7478e6;
+    border-right:1px solid #7478e6;
+    text-align: center;
+    line-height: 39px;
+    background: #fff;
+    margin-right: 4px;
+    color: #7478e6;
+    cursor: pointer;
+}
+.tecontant_liactive{
+    background: #7478e6;
+    color: #fff;
+}
+#wbtable{
+    width: 1071px;
+}
+#wbtable thead{
+    width: 1071px;
+}
+#wbtable thead tr{
+    width: 1071px;
+    height: 46px;
+    border: 1px solid #e0e0e0;
+    background: #f8f8f8;
+}
+#wbtable thead tr th{
+    width: 33%;
+}
+#wbtbody{
+    width: 1071px;
+}
+#wbtbody tr{
+   width: 1071px;
+   height: 46px;
+   border: 1px solid #e0e0e0;
+   background: #FFF;
+   line-height: 46px;  
+}
+#wbtbody tr td{
+    width: 33%;
+    text-align: center;
+}
+.page2{
+    width: 1079px;
+    height: 100px;
+    position: relative;
+}

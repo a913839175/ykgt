@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+/*add 2017-09-28  sxr*/
+.actpic{clear: both;margin: 0 auto;padding: 0;left: 50%;margin-left: -960px;position: relative;width: 1920px;}
+.banner17092801{background: url(/public/static/images/act/20170928/banner2017092801.png) no-repeat;height: 736px;}
+.banner17092802{background: url(/public/static/images/act/20170928/banner2017092802.png) no-repeat;height: 737px;}
+.banner17092803{background: url(/public/static/images/act/20170928/banner2017092803.png) no-repeat;height: 736px;}
+.banner17092804{background: url(/public/static/images/act/20170928/banner2017092804.png) no-repeat;height: 736px;}
+.banner17092805{background: url(/public/static/images/act/20170928/banner2017092805.png) no-repeat;height: 736px;}
+/*add 2017-12-01  sxr*/
+.banner120101{
+	background: url(/public/static/images/act/20171201/2017120101.jpg) no-repeat;
+    height: 510px;
+}
+.banner120102{
+	background: url(/public/static/images/act/20171201/2017120102.jpg) no-repeat;
+    height: 433px;
+}
+.banner120103{
+	background: url(/public/static/images/act/20171201/2017120103.jpg) no-repeat;
+    height: 432px;
+}
+.banner120104{
+	background: url(/public/static/images/act/20171201/2017120104.jpg) no-repeat;
+    height: 433px;
+}
+.banner120105_4{
+	width: 1000px;
+    height: 510px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner120105_3{
+	width: 140px;
+    height: 38px;
+    display: block;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #fcfefd;
+    background: #edc035;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+    left: 430px;	
+}
+.banner120105_3:hover{
+	color: #fcfefd;
+}
+
+/*Add 2017121801*/
+.banner1000 .lotitle{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 38px;
+}
+.banner1000 p.lodesc{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.banner1000 .lobg {
+    width: 428px;
+    height: 106px;
+    background: url(/public/static/images/act/20171218/201710260113.png) no-repeat;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.banner1000 .lobg .lobgtext{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+.bannermc {
+    width: 1000px;
+    height: 510px;
+    margin: 0 auto;
+    position: relative;
+}
+.bannerbtn{
+    width: 140px;
+    height: 38px;
+    display: block;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #fcfefd;
+    background: #edc035;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+    left: 430px;
+}
+.bannerbtn:hover {
+    color: #fcfefd;
+}
+.banner120105 {
+    width: 100%;
+    background: #feeaa6;
+}
+.banner120105midden {
+    width: 1000px;
+    background: #fef5d2;
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: 200px;
+}
+.banner120105_1 {
+    font-size: 20px;
+    color: #e0101a;
+    padding-top: 18px;
+    padding-left: 19px;
+}
+.banner120105_5 {
+    width: 80px;
+    height: 96px;
+    display: block;
+    margin: 30px auto;
+}
+.banner120105_2{
+    width: 937px;
+    margin-left: 19px;
+    text-align:justify;
+    font-size: 20px;
+    color: #e0101a;
+    text-align:justify;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+.a-lgink{
+    background: #fcde50;
+    width: 138px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    margin-left: -69px;
+    text-align: center;
+    color: #d89a24;
+    border-radius: 34px;
+    font-size: 16px;  
+}
+.a-lgink:hover{
+    color: #d89a24;
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/2002/xmlspec/dtd/2.10/xmlspec.dtd">
+<configuration>
+	<!-- <configuration scan="true" scanPeriod="60 seconds" debug="false"> -->
+	<!-- property定义变量后，可以使“${}”来使用变量。 -->
+	<!-- contextName上下文名字 -->
+	<!-- 设置将当前时间（解析配置文件的时间）转换为字符串的模式 -->
+
+	<!--<logger name="com.ibatis" level="DEBUG" />
+	<logger name="com.ibatis.common.jdbc.SimpleDataSource" level="DEBUG" />
+	<logger name="com.ibatis.common.jdbc.ScriptRunner" level="DEBUG" />
+	<logger name="com.ibatis.sqlmap.engine.impl.SqlMapClientDelegate" level="DEBUG" />
+	<logger name="java.sql.Connection" level="DEBUG" />
+	<logger name="java.sql.Statement" level="DEBUG" />
+	<logger name="java.sql.PreparedStatement" level="DEBUG" /> -->
+	
+	<property name="APP_NAME" value="YuanKangWeb" />
+	<timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss" />
+	<contextName>${APP_NAME}</contextName>
+	<!-- 常用三种appender -->
+	<!-- ConsoleAppender用户输出日志到控制台 -->
+	<!-- .............- -->
+	<!-- FileAppender用于输出文件日志 -->
+	<!-- file为写入的文件名 -->
+	<!-- append 如果是true，日志被追加到文件结尾，如果是false，清空现存文件，默认是true -->
+	<!-- <encoder>：对记录事件进行格式化。 -->
+	<!-- <prudent>：如果是 true，日志会被安全的写入文件，即使其他的FileAppender也在向此文件做写入操作，效率低，默认是 
+		false。 -->
+	<!-- .............. -->
+	<!-- RollingFileAppender滚动记录文件，先将日志记录到指定文件，当符合某个条件时，将日志记录到其他文件。 -->
+	<!-- <rollingPolicy>:当发生滚动时，决定 RollingFileAppender 的行为，涉及文件移动和重命名。 -->
+	<!-- <triggeringPolicy >: 告知 RollingFileAppender 合适激活滚动。 -->
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<Pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} -
+				%msg%n
+			</Pattern>
+		</layout>
+	</appender>
+
+	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${catalina.base}/logs/${APP_NAME}/${APP_NAME}.%d{yyyy-MM-dd}.log
+			</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level
+				%logger{35} - %msg%n
+			</pattern>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.LevelFilter"><!-- 只打印错误日志 -->  
+        <level>INFO</level>  
+         <onMatch>ACCEPT</onMatch>   
+        <onMismatch>DENY</onMismatch> 
+         </filter>
+	</appender>
+	<appender name="debugFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${catalina.base}/logs/${APP_NAME}/${APP_NAME}.debug.%d{yyyy-MM-dd}.log
+			</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level
+				%logger{35} - %msg%n
+			</pattern>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.LevelFilter"><!-- 只打印错误日志 -->  
+        <level>DEBUG</level>  
+         <onMatch>ACCEPT</onMatch>  
+        <onMismatch>DENY</onMismatch> 
+         </filter>
+         </appender>  
+	<appender name="errorFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${catalina.base}/logs/${APP_NAME}/${APP_NAME}.error.%d{yyyy-MM-dd}.log
+			</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss} %-4relative [%thread] %-5level
+				%logger{35} - %msg%n
+			</pattern>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.LevelFilter"><!-- 只打印错误日志 -->  
+        <level>ERROR</level>  
+        <onMatch>ACCEPT</onMatch>  
+        <onMismatch>DENY</onMismatch>  
+        </filter>  
+		
+	</appender>
+	<logger name="com.huarong" level="Debug"/>
+
+	<!-- <appender name="FILE" class="ch.qos.logback.core.FileAppender"> <file>./logs/logFile.%d{yyyy-MM-dd}-druid_info.log</file> 
+		<layout class="ch.qos.logback.classic.PatternLayout"> <Pattern>%d{HH:mm:ss.SSS} 
+		[%thread] %-5level %logger{36} - %msg%n </Pattern> </layout> <filter class="ch.qos.logback.classic.filter.ThresholdFilter"> 
+		<level>debug</level> </filter> </appender> -->
+
+
+	<!-- logback为java中的包 -->
+	<!-- <logger name="huarong" /> logback.LogbackDemo：类的全路径 <logger name="logback.LogbackDemo" 
+		level="INFO" additivity="false"> <appender-ref ref="STDOUT" /> </logger> -->
+
+	<!-- 用来设置打印级别，大小写无关：TRACE, DEBUG, INFO, WARN, ERROR, ALL 和 OFF，不能设置为INHERITED或者同义词NULL。 
+		默认是DEBUG。 -->
+	<!-- <root>可以包含零个或多个<appender-ref>元素，标识这个appender将会添加到这个loger。 -->
+	 <root level="INFO">
+		<appender-ref ref="errorFile" />
+	</root>
+	<root level="INFO">
+		<appender-ref ref="debugFile" />
+	</root>
+	<root level="INFO">
+		<appender-ref ref="FILE" />
+	</root>
+	   
+	<root level="INFO">
+		<appender-ref ref="STDOUT" />
+	</root>
+</configuration>

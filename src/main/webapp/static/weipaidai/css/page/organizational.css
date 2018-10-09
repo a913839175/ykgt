@@ -1,0 +1,12 @@
+@charset "utf-8";
+.contentright{width:890px;float:right;background:#fff;padding:16px;}
+.contentright h2{width:100%;height:74px;line-height:74px;text-align:center;font-size:24px;color:#212121;}
+.contentright h2 i{width:26px;height:2px;display:inline-block;background:#212121;vertical-align:middle;margin:0 10px;}
+.TeamUl{margin:0 18px;overflow:hidden;margin-bottom:40px;}
+.TeamList{width:100%;overflow:hidden;margin-bottom:40px;}
+.TeamList .TeamPic{width:220px;height:228px;overflow:hidden;}
+.TeamList .TeamPic:hover{opacity:0.8;}
+.TeamList .TeamCont{width:854px;overflow:hidden;}
+.TeamList .TeamCont .team-name{height:48px;line-height:48px;font-size:24px;color:#212121;display:inline-block;border-top:3px solid #808ff9;}
+.TeamList .TeamCont .team-post{height:30px;line-height:22px;color:#212121;font-size:18px;padding-left:1px;}
+.TeamList .TeamCont .team-desc{line-height:25px;font-size:16px;color:#4c4c4c;padding-left:1px;}

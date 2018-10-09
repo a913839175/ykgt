@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/* 公共样式 */
+.vip01{font-size:16px;color:#6d99f5;font-weight:bold;padding-left:38px;}
+.vip02{width:810px;padding-left:38px;}
+.vip03{margin-bottom:7px;}
+.vip02left{width:22px;height:22px;background:url(/static/weipaidai/images/vip03.png) no-repeat;display:block;color:#ffffff;line-height:22px;text-align:center;}
+.vip02right{width:778px;font-size:16px;color:#5b5b5b;margin-left:10px;}
+.vip04{margin-top:15px;}
+.vtable{width:889px;height:360px;border-top:1px solid #6d99f5;border-left:1px solid #6d99f5;margin-left:38px;margin-top:34px;}
+.vtbody{width:889px;height:44px;}
+.vtd{float:left;color:#7ba3f6;font-size:16px;line-height:44px;border-bottom:1px solid #6d99f5;border-right:1px solid #6d99f5;}
+.vtd01{width:283px;height:44px;padding-left:28px;}
+.vtd02{width:308px;height:44px;padding-left:35px;}
+.vtd03{width:232px;height:44px;text-align:center;}
+.li_tbody{width:889px;background:#fff;}
+.li_tbodynew{width:889px;background:#eff4ff;}
+.li_td{float:left;color:#7ba3f6;font-size:16px;line-height:44px;border-bottom:1px solid #6d99f5;border-right:1px solid #6d99f5;}
+.vtd04{width:80px;height:26px;line-height:26px;text-align:center;margin:0 auto;font-size:16px;color:#fff;border:none;background:#dedede;margin-top:9px;}
+.vtd05{width:80px;height:26px;line-height:26px;text-align:center;margin:0 auto;font-size:16px;color:#fff;border:none;background:#ffaa23;margin-top:9px;cursor:pointer;}
+.vtd06{width:80px;height:26px;display:block;line-height:26px;text-align:center;margin:0 auto;font-size:16px;color:#fff;border:none;background:#7ba3f6;margin-top:9px;cursor:pointer;}
+.vtd06:hover{color:#fff;}
+.vtable{width:889px;height:360px;border-top:1px solid #6d99f5;border-left:1px solid #6d99f5;margin-left:38px;margin-top:34px;}
+.vtable1{width:889px;height:162px;border-top:1px solid #6d99f5;border-left:1px solid #6d99f5;margin-left:38px;margin-top:34px;margin-bottom:66px;}
+.vtbody1{width:889px;height:38px;line-height:44px;color:#7ba3f6;font-size:16px;text-align:center;border-bottom:1px solid #6d99f5;border-right:1px solid #6d99f5;}
+.li_tbody1{width:889px;background:#fff;}
+.li_tbody1new{width:889px;background:#eff4ff;}
+.li_tdx{float:left;color:#7ba3f6;font-size:16px;line-height:40px;border-bottom:1px solid #6d99f5;border-right:1px solid #6d99f5;}
+.li_tdx1{width:101px;height:40px;padding-left:31px;}
+.li_tdx2{width:83px;height:40px;text-align:center;}
+.viphead{height:121px;margin-left:38px;margin-top:32px;}
+.vipdesc{margin:25px 0 10px 38px;color:#848484;font-size:12px;}
+.vipdesc em{font-size:14px;color:#ff4040;font-weight:bold;padding:0 6px;}
+.viphead001{color:#676666;font-size:14px;margin-top:4px;}
+.viphead002{width:30px;height:30px;background:url(/static/weipaidai/images/vip04.png) no-repeat;background-position:0 0;margin-left:5px;}
+.vip-line{width:810px;margin-top:45px;}
+.vip-line .hengxian{width:100%;height:3px;background-color:#e4e4e4;}
+.vip-line .hengxian .hongxian{width:0;height:3px;background-color:#f9c200;}
+.vip-ul{position:relative;overflow:hidden;top:-17px;}
+.vip-list{width:100px;height:66px;float:left;position:relative;}
+.vip-list .vip-title{color:#cccccc;font-size:12px;line-height:30px;}
+.vip-list.active .vip-title{color:#f99e00;}
+.active .vip-icon{background:#f9c200;/*	background: url(/static/weipaidai/images/account/vip_icon.png) no-repeat;*/}
+.vip-icon{width:30px;height:30px;line-height:30px;color:#fff;text-align:center;background:#cccccc;border-radius:100%;font-weight:bold;}
+.vip-icon sub{vertical-align:-1px;}
+.vipul{width:830px;margin-top:30px;}
+.vipliimg{width:30px;height:30px;	/*background: url(/static/weipaidai/images/vip04.png) no-repeat;*/}
+.vipli_v{width:70px;height:3px;background:url(/static/weipaidai/images/vip05.png) no-repeat;margin-top:14px;}
+
+/*进度的三种hover效果 开始*/
+.vipli_v01{background-position:0 -6px;}
+.vipli_v02{background-position:0 -3px;}
+.vipli_v03{background-position:0 0;}
+
+/*进度的三种hover效果 结束*/
+.vipli01{width:70px;}
+
+/*各种等级的背景坐标切换 开始*/
+.vipliimg01{background-position:0 0;}
+.vipliimg1{background-position:-30px 0;}
+.vipliimg02{background-position:0 -30px;}
+.vipliimg2{background-position:-30px -30px;}
+.vipliimg03{background-position:0px -60px;}
+.vipliimg3{background-position:-30px -60px;}
+.vipliimg04{background-position:0px -90px;}
+.vipliimg4{background-position:-30px -90px;}
+.vipliimg05{background-position:0px -120px;}
+.vipliimg5{background-position:-30px -120px;}
+.vipliimg06{background-position:0px -150px;}
+.vipliimg6{background-position:-30px -150px;}
+.vipliimg07{background-position:0px -180px;}
+.vipliimg7{background-position:-30px -180px;}
+.vipliimg08{background-position:0px -210px;}
+.vipliimg8{background-position:-30px -210px;}
+.vipliimg09{background-position:0px -240px;}
+.vipliimg9{background-position:-30px -240px;}
+
+/*各种等级的背景坐标切换 结束*/
+.vipleft01{font-size:12px;color:#f99e00;text-align:center;padding-top:4px;}
+.vipleft01hover{font-size:12px;color:#cccccc;text-align:center;padding-top:4px;}
+.xtd1{width:80px;height:26px;display:block;line-height:26px;text-align:center;margin:0 auto;font-size:16px;color:#fff;border:none;background:#7ba3f6;margin-top:9px;}
+.xtd2{width:80px;height:26px;display:block;line-height:26px;text-align:center;margin:0 auto;font-size:16px;color:#fff;border:none;background:#7ba3f6;margin-top:9px;}
+.xtd1:hover{color:#fff;}
+.xtd2:hover{color:#fff;}
+.liqu{position:absolute;left:43px;top:26px;}
+.num{font-size:14px;color:#c0c0c0;width:45px;text-align:center;}
+.liqu.active .num.numactive{font-size:14px;color:#c0c0c0;width:45px;text-align:center;}
+.liqu.active .num{color:#f99e00;}
+.liqu.active .numbutton{display:block;}
+.numbutton{width:45px;height:17px;padding:0 4px;background:#ff4040;border-radius:10px;font-size:12px;color:#fff;line-height:19px;text-align:center;cursor:pointer;display:none;}
+.greyColor{color:#cccccc!important;}
+.greybg{background:#cccccc!important;}

@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* 公共样式 */
+.fl{float:left;}
+.fr{float:right;}
+
+/*红包收益区块*/
+.hbshouyi_ul{margin-left:36px;margin-top:30px;}
+.hbshouyi_li{min-width:148px;height:83px;border:1px solid #eeeeee;background:#fcfcfc;}
+.hbshouyi_p1{font-size:16px;color:#686868;text-align:center;padding-top:15px;}
+.hbshouyi_p2{font-size:14px;color:#ff8241;text-align:center;padding:4px 10px 0;}
+.hbshouyi_p2 span{font-size:20px;}
+.hbshouyi_p3{color:#686868;font-size:16px;line-height:83px;padding-left:5px;padding-right:5px;}
+.hb_type{width:895px;height:40px;border-bottom:1px solid #eeeeee;margin-left:36px;margin-top:25px;}
+.hb_type li{width:148px;height:39px;background:#f9f9f9;color:#3f3f3f;font-size:16px;float:left;line-height:39px;text-align:center;margin-left:4px;border:1px solid #eeeeee;cursor:pointer;}
+.hb_type li:first-child{margin-left:0px;}
+.hb_type li.active{color:#8488ff;background:#fff;border-bottom:1px solid #fff;}
+.hb_ul{width:840px;margin-left:36px;margin-top:20px;}
+.hb_lileft{width:322px;height:148px;border-right:1px solid #ebebeb;}
+.hb_lileftt{width:322px;height:81px;border-bottom:1px solid #ebebeb;}
+.hb_liimg1{width:56px;height:50px;display:block;margin-left:38px;margin-top:21px;}
+.hb_lip1{font-size:16px;color:#fe6566;margin-right:44px;margin-top:34px;width:160px;height:19px;line-height:19px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:right;font-weight:700}
+.hb_lip_1{font-size:15px;color:#ababab;margin-right:44px;margin-top:34px;width:160px;height:19px;line-height:19px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:right;font-weight:700}
+.hb_lileftb{width:322px;height:66px;}
+.hb_lip2{font-size:14px;color:#686868;padding-left:30px;}
+.mart14{margin-top:14px;}
+.hb_liright{color:#fe6566;font-size:16px;width:30px;padding-left:23px;padding-top:26px;text-align:center;}
+.hb_lip1_1{font-size:16px;text-align:right;color:#ababab;margin-right:44px;margin-top:34px;width:160px;height:19px;line-height:19px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.hb_lip2_2{font-size:14px;color:#ababab;padding-left:30px;}
+.hb_liright_1{color:#ababab;font-size:16px;width:30px;padding-left:29px;padding-top:26px;}
+.hongbaopage{width:840px;height:100px;margin:0 auto;position:relative;left:-21px;}
+.hb_lixjleft{width:322px;height:102px;border-bottom:1px solid #ebebeb;}
+.sures{padding-left:38px;cursor:pointer;font-size:14px;color:#fe6566;}
+.sures1{padding-left:38px;cursor:pointer;font-size:14px;color:#ababab;}
+.hb_lixj{width:322px;height:45px;line-height:45px;}
+.hb_lipxj{font-size:30px;color:#fe6566;margin-right:44px;width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:right;padding-top:30px;}
+.hb_lipxj_1{font-size:30px;color:#ababab;margin-right:44px;width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:right;padding-top:30px;}
+.sures_1{color:#ababab;padding-left:38px;cursor:pointer;font-size:14px;}
+.trade_null{padding:50px 0 41px;text-align:center;}
+.trade_null img{display:inline-block;border:none;vertical-align:middle;}
+.suress{width:322px;height:103px;display:block;}
+
+/*sxr 2017-12-20*/
+.xhblist{width:398px;border:1px solid #d3d3d3;height:259px;overflow:hidden;margin-right:20px;margin-bottom:20px;}
+.xhblistleft{width:322px;border-right:1px solid #d3d3d3;height:259px;}
+.xhblistright{width:75px;}
+.xhblistleft01{width:322px;height:102px;border-bottom:1px solid #d3d3d3;}
+.xhblistleft02{width:322px;overflow:hidden;}
+.xhblistleft03{width:246px;margin:0 auto;}
+.xhblistleft04{width:62px;}
+.xhblistleftx{position:relative;width:184px;max-height:84px;overflow:hidden;text-align:justify;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical}
+.mat11{margin-top:11px;}
+.mat6{margin-top:6px;}
+.mat5b15{margin-top:5px;margin-bottom:15px;}
+.xhblistright01{color:#fe6566;font-size:16px;width:30px;padding-left:23px;padding-top:75px;text-align:center;font-weight:700;}
+.xhblistright011{color:#ababab;font-size:16px;width:30px;padding-left:23px;padding-top:75px;text-align:center;font-weight:700;}
+.xhblistleft06{width:322px;height:81px;border-bottom:1px solid #d3d3d3;}
+.xhblistleft07{height:176px;overflow:hidden;}
+.xhblistleft05{width:184px;height:21px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.xhblistleftx2{position:relative;overflow:hidden;width:184px;height:42px;}
+.mart119{margin-top:100px;}

@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+/* 公共样式 */
+body{background:#f0f0f0!important;}
+
+/*尾部*/
+.ufooter{width:100%;height:129px;position:relative;bottom:0;background:#fff;}
+.ufooterc{width:1200px;margin:0 auto;height:106px;overflow:hidden;}
+.ufooterc_ul{width:380px;margin:0 auto;margin-top:25px;}
+.ufooterc_li a{font-size:14px;color:#7c7c7c;display:block;}
+.ufooterc_li a:hover{font-size:14px;color:#7c7c7c;display:block;}
+.ufooterc_li i{width:1px;height:11px;background:#7c7c7c;margin:5px 11px 0 12px;}
+.ufooterwz{color:#8e8e8e;font-size:14px;text-align:center;margin-top:9px;}
+
+/* 公共样式  end*/
+
+/*我的账户左边样式*/
+#contentaccount{width:100%;background:#f0f0f0;overflow:hidden;}
+.contentleft{width:218px;min-height:1220px;height:100%;background:#fff;}
+.yellow.contentleft{min-height:790px;}
+.yellow .FinancingCenter{background:url(/static/weipaidai/images/account/borrower10.png) center center no-repeat;height:295px;}
+.FinancingCenter{width:218px;height:260px;background:url(/static/weipaidai/images/account/account10.png) center bottom no-repeat #8488ff;overflow:hidden;}
+.user_Accredit{text-align:center;width:180px;height:90px;background:#b9bbff;margin:0 auto;cursor:pointer;border-radius:4px;}
+.current_Accredit{width:180px;height:20px;line-height:20px;background:#b9bbff;border:none;border-radius:4px;color:#5a5fff;font-size:14px;margin-top:10px;}
+.limit_Accredit{color:#fff;font-size:20px;height:30px;line-height:30px;}
+.limit_Accredit em{font-size:12px;padding-left:6px;}
+.btn_Accredit{color:#8488ff;font-size:12px;border:none;background:none;}
+.yellow .fcwz1{border:1px solid #FFF;color:#FFF;}
+.fcwz1{width:63px;height:20px;border:1px solid #fff;font-size:12px;color:#fff;text-align:center;line-height:20px;margin-left:143px;margin-top:10px;}
+.fcimg1{width:76px;height:76px;display:block;margin:0 auto;margin-top:13px;}
+.fcwz2{color:#ffffff;font-size:14px;width:218px;text-align:center;padding-top:11px;}
+.Financingdown{width:218px;overflow:hidden;}
+.fcdown_ul{width:218px;margin-top:20px}
+.fcdown_li{width:218px;height:43px;cursor:pointer;margin-bottom:15px;}
+.yellow .active .fcdown_liwz2{color:#ff8346!important;}
+.active .fcdown_liwz2{color:#6b70ff;}
+.yellow .active .fcdown_liwz1{background:#ff8346!important;}
+.active .fcdown_liwz1{background:#8488ff;}
+.active .fcdown_img{background-position-x:0px;}
+.active .fcdownlk{background:#f0f0f0;}
+.fcdown_liwz1{width:3px;height:43px;background:#fff;}
+.fcdownlk{width:215px;height:43px;overflow:hidden;}
+.fcdown_liwz2{color:#676666;font-size:14px;line-height:43px;padding-left:13px;}
+.fcdown_liwz2 em{width:5px;height:5px;background:url(/static/weipaidai/images/message01.png) no-repeat;display:inline-block;margin-left:8px;}
+.fcdown_img1{width:18px;height:17px;background:url(/static/weipaidai/images/account01.png) no-repeat;margin-top:13px;background-position:-20px 0;margin-left:38px;}
+.fcdown_img2{width:20px;height:18px;background:url(/static/weipaidai/images/account01.png) no-repeat;margin-top:13px;background-position:-20px -17px;margin-left:38px;}
+.fcdown_img3{width:17px;height:18px;background:url(/static/weipaidai/images/account01.png) no-repeat;margin-top:13px;background-position:-20px -35px;margin-left:38px;}
+.fcdown_img4{width:19px;height:19px;background:url(/static/weipaidai/images/account01.png) no-repeat;margin-top:13px;background-position:-20px -53px;margin-left:38px;}
+.fcdown_img5{width:17px;height:19px;background:url(/static/weipaidai/images/account01.png) no-repeat;margin-top:13px;background-position:-20px -72px;margin-left:38px;}
+.fcdown_img6{width:15px;height:15px;background:url(/static/weipaidai/images/account01.png) no-repeat;margin-top:13px;background-position:-20px -91px;margin-left:38px;}
+.fcdown_img7{width:15px;height:18px;background:url(/static/weipaidai/images/account01.png) no-repeat;margin-top:13px;background-position:-20px -106px;margin-left:38px;}
+.fcdown_img8{width:17px;height:18px;background:url(/static/weipaidai/images/account01.png) no-repeat;margin-top:13px;background-position:-20px -124px;margin-left:38px;}
+.fcdown_img9{width:20px;height:16px;background:url(/static/weipaidai/images/account01.png) no-repeat;margin-top:13px;background-position:-20px -142px;margin-left:38px;}
+
+/*状态认证 add 2017-09-18*/
+.status-ul{width:160px;margin:0 auto;margin-top:16px;position:relative;}
+.statusnew-li{margin-left:12px;cursor:pointer;height:68px;}
+.statusnew-li.mrn{margin-left:0}
+.status-li0{width:30px;height:30px;background:url(/static/weipaidai/images/account03.png) no-repeat;}
+.status-li1{width:30px;height:30px;background:url(/static/weipaidai/images/account03.png) no-repeat;background-position:-30px 0px;}
+.status-li2{width:30px;height:30px;background:url(/static/weipaidai/images/account03.png) no-repeat;background-position:-60px 0px;}
+.status-li3{width:30px;height:30px;background:url(/static/weipaidai/images/account03.png) no-repeat;background-position:-90px 0px;}
+.status-li4{width:30px;height:30px;background:url(/static/weipaidai/images/account03.png) no-repeat;background-position:-120px 0px;}
+.activestatus{background-position-y:-30px;}
+.xstatus-ul{margin-top:3px;}
+.xstatus-p{width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid #fff;-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);position:absolute;display:none;}
+.xstatus-p0{left:8px;top:33px;}
+.xstatus-n0{left:0px;top:39px;}
+.xstatus-n{width:155px;height:25px;border-radius:2px;background:#fff;line-height:25px;font-size:12px;text-align:center;position:absolute;display:none;}
+.xstatus-n span{color:#0c2d5f;}
+.xstatus-n em{padding-left:4px;color:#ff5e2f;}
+.xstatus-p1{left:10px;top:34px;}
+.xstatus-n1{left:0px;top:40px;}
+.xstatus-p2{left:52px;top:34px;}
+.xstatus-p3{left:92px;top:34px;}
+.xstatus-p4{left:136px;top:34px;}
+.yellow.contentright{min-height:790px;}
+.contentright{width:967px;margin-left:14px;height:100%;min-height:1220px;background:#fff;}
+.contentright .conttile{height:59px;line-height:59px;color:#545454;font-size:18px;border-bottom:1px solid #eeeeee;padding-left:36px;}
+.totalMain{width:880px;margin:0 auto;height:80px;position:relative;margin-top:55px;}
+.toalData{float:left;width:125px;font-size:14px;color:#696969;padding-top:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.toalData .num{margin-top:20px;color:#8c8c8c;font-size:20px;}
+.aBalance{width:170px;font-size:18px;color:#393838;padding-top:0px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.availablebalance,.availablebalance2{margin-top:17px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#ff5e2f;width: 164px;}
+.availablebalance .tips_abalance{display:inline-block;cursor:pointer;}
+.availablebalance2 .tips_abalance{display:none;}
+.aBalance .num{font-size:24px;color:#ff5e2f;}
+.tips_abalance{display:inline-block;margin-left:4px;vertical-align:1px;}
+#J_refresh{background:url('/static/weipaidai/images/account/refresh.png');width:16px;height:16px;display:inline-block;cursor:pointer;vertical-align:-3px;}
+.toalData .eyes{background:url('/static/weipaidai/images/account09.png');width:18px;height:16px;background-position:-30px 3px;display:inline-block;cursor:pointer;}
+.toalData .eyes.on{background-position:1px 0px;vertical-align:middle;}
+.a-btn{width:82px;height:30px;line-height:30px;text-align:center;border-radius:3px;font-size:14px;color:#fff;cursor:pointer;display:block;position:absolute;right:0;top:0;}
+.yellow .a-btn-1{background:#ff8346!important;}
+.a-btn-1{background:#808ff9;top:8px;}
+.yellow .a-btn-2{border:1px solid #ff8346!important;color:#ff8346!important;}
+.a-btn-2{background:#fff;height:28px;line-height:28px;border:1px solid #808ff9;top:50px;color:#808ff9;}
+.a-btn-1:hover{color:#fff;}
+.a-btn-2:hover{color:#808ff9;}
+.content-bg{background:url('/static/weipaidai/images/account/account_bg.png') no-repeat center;width:967px;height:138px;margin-top:24px;}
+.yellow .content-bg{background:url('/static/weipaidai/images/account/borrower_bg.png') no-repeat center;height:120px;}
+.content-date{width:871px;background-color:#fff;padding:0 50px;position:relative;top:0px;margin-bottom:-35px;}
+.content-date .box-date{border:1px solid #efefef;}
+.box-date h2{font-size:16px;color:#666666;height:50px;line-height:50px;padding-left:20px;border-bottom:1px solid #efefef;}
+.box-date .query-area{font-size:12px;color:#999999;height:50px;line-height:50px;padding-left:20px;border-bottom:1px solid #efefef;padding-right:40px;}
+.box-date .query-area p{font-size:12px;color:#999;float:left;margin-right:45px;}
+.box-date .query-area p em{color:#767676;}
+.box-date .query-area select{float:right;font-size:14px;color:#656565;border:1px solid #efefef;border-radius:3px;padding:3px 0 3px 3px;margin-top:12px;margin-left:10px;}
+.box-date .query-area .btn-date{float:right;background-color:#fff;color:#7082ff;border:1px solid #7082ff;font-size:12px;padding:7px 10px 6px;line-height:1;cursor:pointer;margin-top:13px;margin-left:10px;border-radius:3px;margin-right:12px;}
+.left-show{float:left;width:152px;padding:30px 22px;}
+.left-show h3{color:#656565;font-size:14px;}
+.left-show h3 .now{background:url('/static/weipaidai/images/account07.png') no-repeat center;width:18px;height:18px;display:inline-block;margin-right:7px;}
+.left-show h3 .hui{display:inline-block;width:18px;height:18px;    /*vertical-align: middle;*/background:url('/static/weipaidai/images/ic-hui.png') no-repeat center;margin-right:7px;}
+.left-show h3 em{vertical-align:top;}
+#huiDetail .icon{margin:40px 50px 10px 28px;}
+#huiDetail p{font-size:12px;color:#989898;text-align:center;}
+#huiDetail p .ysy{color:#ff5e2f;font-size:16px;padding-right:5px;}
+#huiDetail p a{color:#808ff9;}
+.date-right{float:left;padding:20px;min-height:276px;border-left:1px solid #efefef;position:relative;}
+.f-rili-table{width:488px;background-color:#fff;padding:0 70px;}
+.f-rili-th{float:left;width:68px;text-align:center;line-height:46px;height:46px;color:#333;}
+.f-td{float:left;width:68px;text-align:center;height:46px;line-height:46px;position:relative;}
+.f-number{cursor:pointer;}
+.f-null{color:#ccc;cursor: no-drop;}
+.f-day{display:inline-block;width:26px;height:26px;border-radius:13px;line-height:26px;}
+.f-td .dotted{display:inline-block;width:6px;height:6px;background-color:#b0b0b0;position:absolute;top:38px;left:50%;margin-left:-3px;border-radius:3px;}
+.f-today span{background-color:#808ff9;color:#fff;}
+.f-on span,.f-td:hover span{color:#fff;background-color:#808ff9;}
+.content-record .title{font-size:16px;color:#666;line-height:30px;text-align:left;height:50px;line-height:50px;padding-left:50px;}
+.trade_null{padding:50px 0 41px;text-align:center;}
+.f-month,.f-year{display:none;}
+.contentright .date-right .preBtn{position:absolute;display:inline-block;width:50px;height:100px;background:url(/static/weipaidai/images/icon-date-btn.png) no-repeat center transparent;background-position:15px 30px;top:110px;left:40px;cursor:pointer;}
+.contentright .date-right .nextBtn{position:absolute;display:inline-block;width:50px;height:100px;background:url(/static/weipaidai/images/icon-date-btn.png) no-repeat center transparent;background-position:-60px 30px;top:110px;right:40px;cursor:pointer;}
+.contentright .date-right .preBtn:hover,.contentright .date-right .nextBtn:hover{background-color:#f9f9f9;}
+.record-box{width:867px;background-color:#fff;padding:0 50px;}
+.record-table{border:1px solid #efefef;height:340px;}
+.record-table .hd{height:57px;line-height:57px;border-bottom:1px solid #efefef;width:867px;}
+.sp{float:left;font-size:14px;color:#747474;}
+.sp1{width:17%;}
+.sp2{width:10%;}
+.sp3{width:15%;}
+.sp4{width:15%;text-indent:30px;}
+.sp5{width:17%;}
+.sp6{width:21%;padding-left:5%;}
+.aBalance em{color:#ff5e2f;}
+.toalData em{display:none;margin-top:17px;margin-left:5px;font-size:24px;}
+.sort{cursor:pointer;}
+.sp1mz1{margin-left:66px;}
+.sp1img1{width:8px;height:11px;background:url(/static/weipaidai/images/account09.png) no-repeat;background-position:0 -30px;margin-top:24px;margin-left:4px;}
+.sp1img1.active{background-position:-20px -30px;}
+.record-ul{width:862px;height:56px;line-height:56px;padding-right:5px;border-bottom:1px solid #efefef;}
+
+/*add 2017-09-20*/
+.rsd-time-title{font-size:14px;color:#545454;}
+.date-search-input{width:88px;height:22px;border:1px solid #e8e8e8;font-size:12px;color:#545454;text-align:center;}
+.date-search-input:focus{border-color:#1088f1;}
+.content-right{margin-top:15px;margin-right:50px;}
+.pop_ktcg{background:url('/static/weipaidai/images/account_bg1.png') no-repeat center;overflow:hidden;position:absolute;width:570px;height:336px;left:50%;top:50%;margin-top:-168px;margin-left:-235px;z-index:100000;border-radius:12px;}
+.pop_ktcg .pop-title{width:100%;height:56px;line-height:56px;font-size:18px;color:#fff;text-indent:18px;position:relative;overflow:hidden;}
+.pop_ktcg .pop-close{background:url(/static/weipaidai/images/pop_close.png) no-repeat center;width:11px;height:12px;position:absolute;top:22px;right:20px;cursor:pointer;}
+.pop_ktcg .pop-tips-center{width:100%;text-align:center;font-size:14px;color:#343434;margin-top:120px;}
+.pop_ktcg .next-step{background:url(/static/weipaidai/images/next_step.png) no-repeat center;width:230px;height:40px;line-height:40px;font-size:16px;text-align:center;color:#fff;border:0;cursor:pointer;margin:0 auto;display:block;position:absolute;bottom:60px;left:50%;margin-left:-115px;}
+.record-list{position:relative;top:-2px;}
+.record-ul li:first-child{text-align:center;}
+.record-p1{width:68px;word-break:break-all;line-height:16px;text-align:center;margin:0 auto;padding-top:14px;height:42px;color:#666666;}
+.record-ul li{font-size:12px;color:#959595;height:56px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.w1{width:10%;text-align:center;font-size:14px;color:#666666;}
+.w15{width:15%;text-align:center;font-size:14px;color:#666666;}
+.w25{width:25%;text-align:center;font-size:14px;color:#666666;}
+.record-ul li.balance{color:#666666;font-size:13px;}
+.record-ul li.sname{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+/*日历css*/
+ul#wimoban_nav{padding-left:50px;margin-bottom:10px;border-bottom:2px solid #ccc;overflow:hidden;_zoom:1;}
+ul#wimoban_nav li{float:left;display:inline;margin:10px;}
+ul#wimoban_nav li a{display:block;font-size:16px;}
+ul#wimoban_nav li a,#wimoban_p,#wimoban_p a{color:#000;font-family:"微软雅黑";}
+ul#wimoban_nav li a:hover,#wimoban_p a:hover{color:red;}
+#wimoban_p{text-align:center;font-size:14px;clear:both;}
+
+/*日历css 结束*/
+
+/*分页css 开始*/
+.contpage{width:967px;height:100px;margin:0 auto;position:relative;}
+.contpage .M-box,.M-box1,.M-box2,.M-box3,.M-box4{right:43px;}
+
+/*分页css 结束*/
+
+/*add 2017-12-18*/
+.fcdown_images1{width:18px;height:17px;background:url(/static/weipaidai/images/jkaccount01.png) no-repeat;margin-top:13px;background-position:-20px 0;margin-left:38px;}
+.fcdown_images2{width:18px;height:17px;background:url(/static/weipaidai/images/jkaccount01.png) no-repeat;margin-top:13px;background-position:-20px -17px;margin-left:38px;}
+.fcdown_images3{width:18px;height:14px;background:url(/static/weipaidai/images/jkaccount01.png) no-repeat;margin-top:15px;background-position:-20px -33px;margin-left:38px;}
+.fcdown_images4{width:18px;height:17px;background:url(/static/weipaidai/images/jkaccount01.png) no-repeat;margin-top:14px;background-position:-20px -47px;margin-left:38px;}
+.jkstatus-li0{width:30px;height:30px;background:url(/static/weipaidai/images/jkaccount03.png) no-repeat;}
+.jkstatus-li1{width:30px;height:30px;background:url(/static/weipaidai/images/jkaccount03.png) no-repeat;background-position:-30px 0px;}
+.jkstatus-li2{width:30px;height:30px;background:url(/static/weipaidai/images/jkaccount03.png) no-repeat;background-position:-60px 0px;}
+.jkstatus-li3{width:30px;height:30px;background:url(/static/weipaidai/images/jkaccount03.png) no-repeat;background-position:-90px 0px;}
+.jkstatus-li4{width:30px;height:30px;background:url(/static/weipaidai/images/jkaccount03.png) no-repeat;background-position:-120px 0px;}
+.actstatic{background-position-y:-30px;}
+.pop_changepp1{background:url(/static/weipaidai/images/bkchangepwd01.png) no-repeat center;overflow:hidden;position:absolute;width:688px;height:428px;left:50%;top:50%;margin-top:-214px;margin-left:-344px;z-index:1000;border-radius:12px;}
+.pop-title{width:100%;height:56px;line-height:56px;font-size:18px;color:#fff;text-indent:18px;position:relative;overflow:hidden;}
+.pop-close{background:url(/static/weipaidai/images/pop_close.png) no-repeat center;width:11px;height:12px;position:absolute;top:22px;right:20px;cursor:pointer;}
+.pop_ul{margin-left:116px;margin-top:60px;position:relative;}
+.pop_li{width:570px;height:37px;position:relative;}
+.pop_limian1{width:89px;height:37px;line-height:37px;margin-left:22px;}
+.backcard1{width:260px;height:35px;border:1px solid #e3e3e3;padding-left:15px;line-height:35px;}
+.pop_limian2{width:111px;height:37px;line-height:37px;}
+.backcard2{width:260px;height:35px;border:1px solid #e3e3e3;padding-left:15px;line-height:35px;color:#000;}
+.mart22{margin-top:22px;}
+.pop_limian3{width:96px;height:37px;line-height:37px;margin-left:14px;}
+.backcard3{width:172px;height:35px;padding-left:15px;border:1px solid #e3e3e3;line-height:35px;}
+.dongtai{width:90px;height:37px;background:#3ba0ff;font-size:12px;line-height:37px;text-align:center;color:#fff;border:none;cursor:pointer;}
+.surebang{width:160px;height:40px;border-radius:26px;border:none;background:#3ba0ff;line-height:40px;text-align:center;color:#fff;font-size:16px;margin-left:147px;margin-top:50px;cursor:pointer;}
+#J-changep1{display:none;}
+.gray-bg{background:#b3b3b3;}
+.pop_ul li span.Validform_wrong{color:#ff4343;margin-left:10px;background:url(/static/weipaidai/images/reg/reg_icon.png) no-repeat;width:auto;height:19px;background-position:0 -195px;text-indent:24px;display:inline-block;line-height:24px;}
+.Validform_checktip{position:absolute;top:6px;left:390px;}
+.mask1{background:rgba(0,0,0,.5);position:fixed;left:0;top:0;width:100%;height:100%;z-index:1000;}
+.Authorlimit{position:relative;width:590px;height:488px;background:url(/static/weipaidai/images/investxq05.png) no-repeat;left:50%;top:50%;margin-left:-295px;margin-top:-244px;border-radius:10px;overflow:hidden;}
+.Alguanbi{width:56px;height:56px;margin-left:534px;cursor:pointer;}
+.Almoney{margin-left:123px;padding-top:58px;}
+.Almoney01{color:#666666;font-size:18px;margin-top:5px;}
+.Almoney02{color:#ff8241;font-size:24px;padding-left:16px;}
+.Almoney02 span{font-size:12px;padding-left:5px;}
+.Alsqmoney{margin-left:123px;margin-top:10px;}
+.Alsqmoney01{color:#666666;font-size:18px;}
+.Alsqmoney02{width:130px;height:26px;border-radius:2px;padding-left:6px;display:block;margin-left:16px;border:1px solid #c5c5c5;}
+.Alsqmoney03{color:#c9c9c9;font-size:14px;padding-left:6px;padding-top:10px;}
+.Alsbank{margin-left:123px;margin-top:10px;}
+.Alsbank01{color:#666666;font-size:18px;padding-left:53px;}
+.Alsbank02{color:#7987ff;font-size:18px;}
+.Alexplain{font-size:14px;color:#454545;margin-left:71px;margin-top:77px;}
+.Alexplain01{margin-left:71px;font-size:12px;color:#a4a4a4;line-height:23px;padding-top:10px;}
+.Alexplain02{margin-left:71px;font-size:12px;color:#a4a4a4;line-height:23px;width:468px;}
+.Alsure{width:230px;height:45px;display:block;text-align:center;line-height:45px;font-size:16px;color:#fff;border:none;background:#9f8dff;margin:0 auto;margin-top:24px;cursor:pointer;border-radius:4px;}
+.Authorlimit .guanbi{width:54px;height:54px;margin-left:536px;cursor:pointer;}
+.tcenter{text-align:center;}
+
+/*add 2018-08-06 SXR*/
+.NtotalMain{width: 871px;border: 1px solid #e3e3e3;margin: 30px auto;}
+.NtotalTop{height: 140px;border-bottom: 1px solid #e3e3e3;}
+.NtotalTopOne{width: 329px;float: left;text-align: center;margin-top: 25px;}
+.NtotalTopOne .eyes{background:url('/static/weipaidai/images/account09.png');width:18px;height:16px;background-position:-30px 3px;display:inline-block;cursor:pointer;}
+.NtotalTopOne .eyes.on{background-position:1px 0px;vertical-align:middle;}
+.NBalanceOne{color: #393838;font-size: 18px;padding-left: 9px;padding-right: 4px}
+.NBalanceTwo{font-size: 14px;}
+#J_refresh{background:url('/static/weipaidai/images/account/refresh.png');width:16px;height:16px;display:inline-block;cursor:pointer;vertical-align:-3px;}
+.NtotalTopOneDown{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;color: #ff5e2f;margin-top: 22px;}
+.NBalanceThree{font-size: 24px;color: #ff5e2f;}
+.NtotalTopOneDown .tips_abalance{display:inline-block;cursor:pointer;}
+.NtotalXian{width: 1px;height: 70px;background: #eeeeee;float: left;margin-top: 35px;}
+.NtotalTopTwo{width: 329px;float: left;text-align: center;margin-top: 25px;}
+.NtotalTopTwoDown{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;color: #ff5e2f;margin-top: 22px;}
+.NtotalTopThree{width: 208px;height: 139px;float: left;}
+#recharge{width: 80px;height: 31px;display: block;border-radius: 3px;background: #ff6f45;text-align: center;line-height: 31px;color: #ffffff;margin: 31px auto 10px auto;}
+#withdrawNow{width: 78px;height: 29px;display: block;border-radius: 3px;border:1px solid #ff6f45;text-align: center;line-height: 31px;color: #ff6f45;margin: 0 auto;}
+.Ntotal_ul{width: 871px;height: 139px;background: url(/static/weipaidai/images/account/account_bg01.jpg) no-repeat center;}
+.Ntotal_li{width: 216px;height: 139px;float: left;}
+.Ntotal_liPOne{font-size: 14px;color: #696969;text-align: center;padding-top: 40px;padding-bottom: 24px;}
+.Ntotal_liPTwo{font-size: 20px;color: #8c8c8c;text-align: center;}
+.content-record{margin-top: 50px;}

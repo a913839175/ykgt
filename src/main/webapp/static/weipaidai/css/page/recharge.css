@@ -1,0 +1,33 @@
+@charset "utf-8";
+.headxian{width:1px;height:17px;background:#b6c9d7;margin-top:34px;margin-left:14px;}
+.loginwz{font-size:18px;color:#000;padding-top:28px;padding-left:13px;}
+.recharge-box{width:778px;padding: 0 50px 30px;height: 600px;background:#fff;position:absolute;top:50%;left:50%;margin-left:-439px;margin-top:-315px;}
+.recharge-title{width:798px;height:69px;line-height:69px;color:#3c3c3c;font-size:16px;margin:0 auto;border-bottom:1px solid #ddd;}
+.recharge-title span{color:#f0871b;font-size:28px;padding:0 5px;position:relative;top:2px;}
+.recharge-title em{color:#c5c5c5;}
+.form-group{height:40px;line-height:40px;font-size:16px;margin-top:14px;}
+.form-group label{color:#3c3c3c;display:inline-block;}
+.form-balance span{font-size:18px;color:#f0871b;margin-left:10px;}
+.form-group span.Validform_wrong{font-size:14px;color:#ff4343;margin-left:10px;background:url(/static/weipaidai/images/reg/reg_icon.png) no-repeat;width:auto;height:19px;background-position:0 -195px;text-indent:24px;display:inline-block;line-height:24px;}
+.form-balance em{color:#c5c5c5;padding-left:4px;}
+.recharge-input,.pwd-input{width:200px;height:34px;line-height:34px;padding-left:20px;margin-left:10px;font-size:18px;border:1px solid #bfbfbf;border-radius:2px;}
+.recharge-tab{width:288px;display:inline-block;vertical-align:top;background:#f5f4f4;border-radius:10px;border-radius:5px;overflow:hidden;}
+.recharge-tab-list{width:144px;height:40px;line-height:40px;float:left;text-align:center;cursor:pointer;color:#333333;font-size:16px;}
+.recharge-tab-list.active{color:#fff;background:#ff9222;}
+.form-bank{height:auto;}
+.recharge-bank{width:640px;display:inline-block;vertical-align:top;overflow:hidden;}
+.recharge-bank-list{float:left;width:160px;margin-bottom:10px;cursor:pointer;}
+.bank-icon{width:126px;height:40px;border:1px solid #ddd;overflow:hidden;display:inline-block;vertical-align:top;margin-left:5px;text-align:center;}
+.bank-icon img{width:112px;}
+.binding-bank{display:inline-block;vertical-align:top;}
+.binding-bank .recharge-wh{font-size:16px;color:#959595;}
+.form-button button{width:230px;height:40px;line-height:40px;text-align:center;color:#fff;font-size:16px;cursor:pointer;border:none;border-radius:5px;margin-left:85px;background: #e5e5e5;color: #a2a2a2}
+.form-button button.active{color: #fff;background: #ff9222;}
+.recharge-desc{width:100%;text-align:center;font-size:14px;color:#989898;}
+.recharge-desc span{color:#ff5722;padding:0 3px;}
+.recharge-desc .tipsimg{margin-right:7px;position:relative;top:-1px;}
+.recharge-rule{margin-left:85px;}
+.recharge-rule .rule-tit{color:#f69384;line-height:28px;}
+.recharge-rule .rule-tit i{background:url('/static/weipaidai/images/warn_icon.png') no-repeat center;height:14px;width:14px;background-position:0 -30px;display:inline-block;margin-right:5px;position:relative;top:2px;}
+.recharge-rule p{font-size:12px;color:#a4a4a4;line-height: 20px;}
+.btn-disable {background: #e5e5e5!important;color: #a2a2a2!important;}

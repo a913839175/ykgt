@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/* 公共样式 */
+body{background:#4f515c;}
+html,body{height:100%;position:relative;}
+.header-main-login{width:100%;height:70px;background:#fff;color:#454545;border-bottom:1px solid #e8ecf0;}
+.header-main-login .ui-header-logo{display:block;height:70px;width:210px;background:url(/static/weipaidai/images/logo.png) no-repeat 0 center;}
+.headxian{width:1px;height:17px;background:#b6c9d7;margin-top:34px;margin-left:14px;}
+.loginwz{font-size:18px;color:#000;padding-top:28px;padding-left:13px;}
+
+/*登陆*/
+.yash{width:878px;height:478px;background:#fff;position:absolute;background:#fff;top:50%;left:50%;margin-left:-439px;margin-top:-239px;}
+.yash01{font-size:24px;color:#666666;text-align:center;padding-top:46px;}
+.yash02{width:248px;margin:0 auto;margin-top:10px;}
+.yashimg1{width:14px;height:14px;display:block;margin-top:4px;}
+.yash03{color:#8a8a8a;font-size:14px;padding-left:8px;}
+.yash02{width:248px;margin:0 auto;padding-top:10px;}
+.phonename{height:42px;line-height:42px;margin-left:244px;position:relative;margin-top:12px;}
+.yashimg2{width:51px;height:40px;display:block;position:absolute;top:1px;left:1px;border-right:1px solid #ececec;}
+.yash04{width:312px;height:40px;border:1px solid #ececec;font-size:14px;color:#979797;padding-left:70px;line-height:40px;}
+.placehoder-tit1{position:absolute;top:0px;left:70px;font-size:14px;color:#979797;}
+.ffxian{width:745px;height:1px;background:#ececec;margin-top:22px;}
+.yanzhengma{margin-left:244px;position:relative;margin-top:18px;height:42px;line-height:42px;}
+.placehoder-tit2{position:absolute;top:0px;left:20px;font-size:14px;color:#979797;}
+.yash05{width:225px;height:40px;border:1px solid #ececec;font-size:14px;color:#979797;padding-left:20px;line-height:40px;}
+.yash06{width:126px;height:45px;border:1px solid #51afff;text-align:center;line-height:45px;color:#51afff;font-size:14px;margin-left:12px;cursor:pointer;background:#fff;}
+.yash07{border:1px solid #dedede;color:#7e7e7e;}
+.yash08{width:385px;height:45px;text-align:center;line-height:45px;background:url(/static/weipaidai/images/forgetp02.png) no-repeat;color:#fff;font-size:16px;margin-left:244px;margin-top:34px;cursor:pointer;border:none;display:block;}
+.yash2{width:878px;height:478px;background:#fff;position:absolute;background:#fff;top:50%;left:50%;margin-left:-439px;margin-top:-239px;}
+.newpassword{margin-left:218px;line-height:40px;margin-top:40px;}
+.newpassword p{font-size:14px;color:#979797;float:left;}
+.newpassword input{float:left;width:310px;height:40px;border:1px solid #ececec;font-size:14px;color:#979797;padding-left:20px;margin-left:14px;line-height:40px;}
+.newpassword2{margin-left:244px;line-height:40px;margin-top:17px;}
+.newpassword2 p{font-size:14px;color:#979797;float:left;}
+.newpassword2 input{float:left;width:310px;height:40px;border:1px solid #ececec;font-size:14px;color:#979797;padding-left:20px;margin-left:14px;line-height:40px;}
+.yash09{width:332px;height:45px;text-align:center;line-height:45px;background:url(/static/weipaidai/images/forgetp03.png) no-repeat;color:#fff;font-size:16px;margin-left:326px;margin-top:34px;cursor:pointer;border:none;display:block;}
+.yash3{width:878px;height:478px;background:#fff;position:absolute;background:#fff;top:50%;left:50%;margin-left:-439px;margin-top:-239px;}
+.yash301{font-size:28px;color:#4f4f4f;text-align:center;margin-top:67px;}
+.yash302{width:365px;height:234px;display:block;margin:0 auto;}
+.yash303{width:300px;height:45px;text-align:center;line-height:45px;background:url(/static/weipaidai/images/forgetp03.png) no-repeat;color:#fff;font-size:16px;cursor:pointer;margin:0 auto;display:block;}
+.yash303:hover{color:#fff;}
+span.Validform_wrong{color:#ff4343;margin-left:10px;background:url(/static/weipaidai/images/reg/reg_icon.png) no-repeat;width:auto;height:19px;background-position:0 -195px;text-indent:24px;display:inline-block;line-height:24px;}
+span.Validform_loading{margin-left:10px;padding-left:24px;background:url(/static/weipaidai/images/onLoad.gif) no-repeat left center;text-indent:24px;color:#3cb4f9;}
+span.Validform_right{color:#98CF0A;margin-left:10px;background:url(/static/weipaidai/images/reg/reg_icon.png) no-repeat;width:auto;height:14px;background-position:0 -214px;text-indent:24px;display:inline-block;line-height:12px;}
+.newpassword2 span.Validform_wrong{color:#ff4343;margin-left:10px;background:url(/static/weipaidai/images/reg/reg_icon.png) no-repeat;width:auto;height:19px;background-position:0 -195px;text-indent:24px;display:inline-block;line-height:24px;}
+.newpassword2 span.Validform_right{color:#98CF0A;margin-left:10px;background:url(/static/weipaidai/images/reg/reg_icon.png) no-repeat;width:auto;height:14px;background-position:0 -214px;text-indent:24px;display:inline-block;line-height:12px;}
+.fselect{height:56px;line-height:56px;margin-left:244px;position:relative;margin-top:40px;}
+.fselect .login-reg{width:51px;height:40px;display:inline-block;position:absolute;left:1px;top:9px;border-right:1px solid #eaeaea;}
+.fselect label i.login-acctpu{background:url(/static/weipaidai/images/reg/realname_icon.png);width:40px;height:40px;background-position:0 -120px;display:block;margin-left:5px;}
+.select{position:relative;display:inline-block;width:384px;height:40px;text-indent:70px;margin:7px 0;vertical-align:middle;user-select:none;-webkit-touch-callout:none;transition:all 0.5s;-moz-transition:all 0.5s;-webkit-transition:all 0.5s;-o-transition:all 0.5s;border:1px solid #eaeaea;}
+.select:hover{border:1px solid #3cb4f9;}
+.select .select-option{position:relative;font-size:14px;color:#3399ff;z-index:1;height:40px;line-height:40px;border-radius:2px;cursor:pointer;}
+.select .select-selectbtn{width:40px;height:40px;display:inline-block;background:url('/static/weipaidai/images/select_jian.png') no-repeat center;position:absolute;right:0;top:0;}
+.select.is-open ul{display:block;}
+.select ul{display:none;position:absolute;overflow:hidden;width:100%;background:#fff;border:1px solid #3cb4f9;border-radius:2px;top:100%;left:0;list-style:none;margin:5px 0 0 0;padding:0;z-index:100;-webkit-box-shadow:1px 0 10px rgba(0,0,0,0.18);-moz-box-shadow:1px 0 10px rgba(0,0,0,0.18);box-shadow:1px 0 10px rgba(0,0,0,0.18);}
+.select ul li{display:block;text-align:left;color:#999;cursor:pointer;height:42px;line-height:42px;}
+.select ul li.is-select{background:#4ebbf0;color:#fff;}

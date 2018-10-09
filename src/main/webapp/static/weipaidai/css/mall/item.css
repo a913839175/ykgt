@@ -1,0 +1,409 @@
+.breaditem{
+    width: 1200px;
+    margin: 0 auto;
+    height: 42px;
+    line-height: 42px;
+}
+.breadcrumb{
+    overflow: hidden;
+}
+.breadcrumb li{  
+    float: left;
+}
+.breadcrumb li a{
+    font-size: 12px;
+    color: #8e8d8d;
+}
+.breadcrumb li i{
+    font-size: 13px;
+    font-style: normal;
+    color: #8e8d8d;
+    padding: 0 3px;  
+}
+#detail{
+    width: 1200px;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#detail .detail-cont{
+    padding: 20px;
+    overflow: hidden;
+}
+#J_DetailMeta{
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+#J_DetailMeta .item-left{
+    float: left;
+    width: 524px;
+    overflow: hidden;
+    position: relative;  
+}
+#J_DetailMeta .item-pic{
+    width: 430px;
+    height: 313px;
+    line-height: 310px;
+    text-align: center;
+    float: left;
+    border: 1px solid #e9e9e9;   
+}
+#J_DetailMeta .item-pic img{
+    width: 430px;
+    height: 313px;
+}
+img:hover {
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+}
+#J_DetailMeta .item-thumbnail{
+    width: 78px;
+    float: right;
+}
+#J_DetailMeta .item-thumbnail ul li{
+    width: 76px;
+    height: 76px;
+    margin-bottom: 10px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    overflow: hidden; 
+}
+#J_DetailMeta .item-thumbnail ul li.active{
+    width: 74px;
+    height: 74px;
+    border: 2px solid #b4a078;
+}
+#J_DetailMeta .item-thumbnail ul li.active img{
+    left: -2px;
+    top: -2px;
+}
+#J_DetailMeta .item-thumbnail ul li img{
+    width: 76px;
+    height: 76px;
+    cursor: pointer;
+    position: relative;
+}
+#J_DetailMeta .item-right{
+    float: left;
+    height: 315px;
+    margin-left: 52px;
+    position: relative;
+} 
+#J_DetailMeta .item-right .item-title{
+    font-size: 20px;
+    color: #26220a;
+    font-weight: 700;
+    font-family: 'PingFang SC';
+    border: none;
+    background: #fff;
+}
+#J_DetailMeta .item-right .item-desc{
+    font-size: 14px;
+    color: #a7a6ab;
+    padding: 12px 0;
+}
+#J_DetailMeta .item-price{
+    width: 508px;
+    height: 64px;
+    padding: 12px 20px;
+    background: #f7f7f7;
+    border: 1px solid #eeecec;
+    margin-top: 8px;
+}
+#J_DetailMeta .item-yjprice{
+    font-size: 14px;
+    color: #666666;
+}
+#J_DetailMeta .item-yjprice del{
+    font-size: 18px;
+    color: #797979;
+    padding-left: 4px;
+}
+.item-zkprice{
+    font-size: 14px;
+    color: #666666;
+    padding-left: 14px;
+    margin-top: -2px;
+}
+.item-zkprice span{
+    font-size: 24px;
+    color: #fd4646;
+    padding-left: 4px;
+}
+.sel-options{
+    height: 30px;
+    line-height: 30px;
+    margin-top: 18px;
+    color: #666666;
+}
+.sel-options label{
+    font-size: 14px;
+    float: left;
+}
+.sel-options .sel-btns,.sel-options .sel-inputs{
+    float: left;
+    font-size: 0;
+}
+.sel-options .sel-btns a{
+    display: inline-block;
+    margin-right: 6px;
+}
+.sel-options .sel-btns a span{
+    display: inline-block;
+    background-color: #fff;
+    white-space: nowrap;
+    width: auto;
+    min-width: 10px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid #bfbfbf;
+    font-size: 12px;
+    color: #666666;
+    cursor: pointer;
+    position:relative;
+}
+.sel-options .sel-btns a:hover span,.sel-options .sel-btns a.active span{
+    border: 2px solid #FF0036;
+    margin: -1px;
+}
+.sel-options .sel-btns a span i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    text-indent: -99em;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: none;
+}    
+.sel-options .sel-btns a.active span i{
+    display: block;
+    background-image: url(/static/weipaidai/images/mall/selction.png);
+}
+@font-face {
+    font-family: tm-detail-font;
+    src: url(//at.alicdn.com/t/font_800_ea78a64pvtxa8aor.eot);
+    src: url(//at.alicdn.com/t/font_800_ea78a64pvtxa8aor.eot?#iefix) format('embedded-opentype'),url(//at.alicdn.com/t/font_800_ea78a64pvtxa8aor.woff) format('woff'),url(//at.alicdn.com/t/font_800_ea78a64pvtxa8aor.ttf) format('truetype'),url(//at.alicdn.com/t/font_800_ea78a64pvtxa8aor.svg#tm-detail-font) format('svg')
+}
+.sel-options .amount-input{
+    font-size: 12px;
+    margin: 0;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #bfbfbf;
+    width: 38px;
+    color: #666;
+    text-align: center;
+    vertical-align: middle;
+}
+.amount-btn{
+    display: inline-block;
+    vertical-align: middle;
+    margin:0 6px;
+}
+.amount-decrease, .amount-increase {
+    width: 16px;
+    height: 12px;
+    overflow: hidden;
+    border: 1px solid #a7a6ab;
+    display: block;
+    font-family: tm-detail-font;
+    line-height: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.amount-btn .amount-sp.disabled{
+    color: #ccc;
+    cursor: not-allowed;
+    background-color: #ededed;
+}
+.amount-increase {
+    margin-bottom: 2px;
+}
+.amount-unit,.amount-stock{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #666666;
+}
+.buy-button{
+    width: 100%;
+    height: 46px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+.button-link{
+    float: left;
+    width: 174px;
+    height:46px;
+    line-height: 46px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background: #fd4646;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.button-link:hover{
+   color: #fff; 
+}
+.mywb{
+    float: left;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.mywb em{
+    font-size: 24px;
+    color: #fd4646;
+}
+#J_ShopPromtion{
+    overflow: hidden;
+}
+.J_DetailPro{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+.J_DetailPro .pro-nav{
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    background: #f5f5f5;
+    border: 1px solid #eeecec;
+    float: left;
+}
+.J_DetailPro .pro-nav span{
+    width: 170px;
+    background: #fff;
+    text-align: center;
+    display: inline-block;
+    border-top: 3px solid #b4a078;
+    font-size: 16px;
+    color: #323033;
+}
+#description {
+    /*width: 780px;
+    margin: 0 auto;*/
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+}
+#description .des-content {
+    width: 100%;
+    margin: 10px 0 0;
+    overflow: hidden;
+}
+#description p {
+    line-height: 40px!important;
+}
+#description p span,#description p strong{
+  /*  display: inline-block;
+    margin: 0.8em 0;*/
+}
+#J_DcTopRightWrap img {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+.J_Recommend{
+    width: 340px;
+    float: right;
+}
+.J_Recommend .recommend-tit{
+    height: 42px;
+    line-height: 42px;
+    padding-left: 24px;
+    background: #f5f5f5;
+    border: 1px solid #eeecec;
+    font-size: 16px;
+    color: #323033;
+}
+.recommend-item{
+    border:  1px solid #eeecec;
+    border-top: none;
+    overflow: hidden;
+    position: relative;
+    top: -2px; 
+}
+.pro-boxs{
+    width: 284px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.pro-boxs li{
+    width: 284px;
+    height:316px;
+    position: relative;
+    float: left;
+}
+.pro-boxs li img{
+    width: 284px;
+    height:250px;
+    -webkit-transition: -webkit-transform .4s ease;
+    transition: -webkit-transform .4s ease;
+    -moz-transition: transform .4s ease,-moz-transform .4s ease;
+    transition: transform .4s ease;
+    transition: transform .4s ease,-webkit-transform .4s ease,-moz-transform .4s ease;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+.pro-boxs li:hover img {
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.pro-boxs li .pro-list-title{
+    font-size: 14px;
+    color: #6b6b6b;
+    width: 190px;
+    height: 44px;
+    line-height: 44px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.pro-boxs li .pro-list-title:hover{
+    color: #ff684b;
+}
+.pro-boxs li .pro-list-wb{
+    font-size: 14px;
+    color: #6d99f5;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    position: relative;
+    top: -10px;
+}
+.pro-list-btn{
+    position: absolute;
+    bottom: 24px;
+    right: 0;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ff684b;
+    border: 1px solid #ff684b;
+    background: #fff;
+}
+.J_Recommend .pro-boxs li{
+    padding-top: 20px;
+    border-top: 1px solid #eeecec;
+}
+.J_Recommend .pro-boxs li:nth-child(1){
+    border-top: none;
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+    version="2.0">
+    
+    
+  <description>WPD 1.0 library</description>
+  <display-name>WPDTag</display-name>
+  <tlib-version>1.0</tlib-version>
+  <short-name>mln</short-name>
+  <uri>http://www.mlnsoft.net/tag/</uri>
+  
+   
+  <function>
+  	   <name>getDate</name>
+  	   <function-class>com.huarong.framework.tags.Functions</function-class>
+   	   <function-signature>java.util.Date getDate(java.lang.String,java.lang.String)</function-signature>
+  </function>
+  <function>
+  	   <name>getLong</name>
+  	   <function-class>com.huarong.framework.tags.Functions</function-class>
+   	   <function-signature>java.Long.Long getLong(java.lang.String)</function-signature>
+  </function>
+  <function>
+  	   <name>getInt</name>
+  	   <function-class>com.huarong.framework.tags.Functions</function-class>
+   	   <function-signature>java.Long.Integer getInt(java.lang.String)</function-signature>
+  </function>
+  <function>
+  	   <name>getDouble</name>
+  	   <function-class>com.huarong.framework.tags.Functions</function-class>
+   	   <function-signature>java.Long.Double getDouble(java.lang.String)</function-signature>
+  </function>
+  <function>
+  	   <name>getDoubleScal</name>
+  	   <function-class>com.huarong.framework.tags.Functions</function-class>
+   	   <function-signature>java.Long.Double getDouble(java.lang.String,java.lang.String)</function-signature>
+  </function>
+    <function>
+  	   <name>getPwd</name>
+  	   <function-class>com.huarong.framework.tags.Functions</function-class>
+  	   <function-signature>java.lang.String getPwd(java.lang.String)</function-signature>
+  </function>
+   <function>
+  	   <name>getDateByUnix</name>
+  	   <function-class>com.huarong.framework.tags.Functions</function-class>
+   	   <function-signature>java.lang.String getDateByUnix(java.lang.String)</function-signature>
+  </function>
+  <function>
+  	   <name>getSplit</name>
+  	   <function-class>com.huarong.framework.tags.Functions</function-class>
+   	   <function-signature>java.lang.String getSplit(java.lang.String)</function-signature>
+  </function>
+  <function>
+  	   <name>getPhone</name>
+  	   <function-class>com.huarong.framework.tags.Functions</function-class>
+   	   <function-signature>java.lang.String getPhone(java.lang.String)</function-signature>
+  </function>
+  <function>
+  	   <name>getThousand</name>
+  	   <function-class>com.huarong.framework.tags.Functions</function-class>
+   	   <function-signature>java.lang.String getThousand(java.lang.String)</function-signature>
+  </function>
+  <function>
+  	   <name>replaceAllStr</name>
+  	   <function-class>com.huarong.framework.tags.Functions</function-class>
+   	   <function-signature>java.lang.String replaceAllStr(java.lang.String,java.lang.String,java.lang.String)</function-signature>
+  </function> 
+  <function>
+  	   <name>htmlUnescape</name>
+  	   <function-class>com.huarong.framework.tags.Functions</function-class>
+   	   <function-signature>java.lang.String htmlUnescape(java.lang.String)</function-signature>
+  </function>
+</taglib>

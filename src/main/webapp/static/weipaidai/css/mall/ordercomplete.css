@@ -1,0 +1,46 @@
+@charset "utf-8";
+.maincontent{
+    width: 1200px;
+    margin: 0 auto;
+}
+.protitle{
+    color: #8e8d8d;
+    font-size: 12.8px;
+    padding: 12px 0;
+}
+.completebj{
+    width: 1203px;
+    height: 692px;
+    background: url(/static/weipaidai/images/mall/complete01.png) center center;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.guangguang{
+    width: 185px;
+    height: 40px;
+    display: block;
+    margin-top: 551px;
+    margin-left: 516px;
+}
+.breaditem{
+    width: 1200px;
+    margin: 0 auto;
+    height: 42px;
+    line-height: 42px;
+}
+.breadcrumb{
+    overflow: hidden;
+}
+.breadcrumb li{  
+    float: left;
+}
+.breadcrumb li a{
+    font-size: 12px;
+    color: #8e8d8d;
+}
+.breadcrumb li i{
+    font-size: 13px;
+    font-style: normal;
+    color: #8e8d8d;
+    padding: 0 3px;  
+}

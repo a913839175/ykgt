@@ -1,0 +1,218 @@
+@charset "utf-8";
+blockquote,body,button,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+img{display:inline-block;border:none;vertical-align:middle;}
+li{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+h1,h2,h3{font-size:14px;font-weight:400}
+h4,h5,h6{font-size:100%;font-weight:400}
+button,input,optgroup,option,select,textarea{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;outline:0}
+pre{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}
+hr{height:1px;margin:10px 0;border:0;background-color:#e2e2e2;clear:both}
+a{color:#3399ff;text-decoration:none;cursor:pointer;}
+a:hover{color:#0c2d5f}
+a cite{font-style:normal;*cursor:pointer}
+em{font-style:normal;}
+body{font:14px/1.5 'Microsoft YaHei',"宋体";color:#4d4d4d;min-width:1200px;background:#fff;}
+
+/*去除input type为number时 右侧上下箭头*/
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{-webkit-appearance:none;}
+input:focus{border-color:#3cb4f9!important;}
+input[type="number"]{-moz-appearance:textfield;}
+
+/*去除input type为number时 右侧上下箭头*/
+
+/*设置placeholder字体颜色*/
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#bbb!important;font-size:14px!important;}
+input:-moz-placeholder,textarea:-moz-placeholder{color:#bbb!important;font-size:14px!important;}
+input::-moz-placeholder,textarea::-moz-placeholder{color:#bbb!important;font-size:14px!important;}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#bbb!important;font-size:14px!important;}
+button.btn-disable{background:#e5e5e5!important;color:#a2a2a2!important}
+
+.ms-controller{visibility: hidden}
+/**/
+.header{width:100%;height:105px;}
+.header-main.topFixed{position:fixed;top:0;left:0;z-index:9999;}
+#checked{display:none;}
+label .checkedBtn{display:inline-block;width:13px;height:13px;background:url("/static/weipaidai/images/kiting02.png") no-repeat;background-position:0 -13px;cursor:pointer;padding-right:5px;position:relative;top:1px;}
+label .checkedBtn.on{background-position:0 0;}
+#J_KTCG_box{z-index:9999;}
+.mask{background:rgba(0,0,0,.5);position:fixed;left:0;top:0;width:100%;height:100%;z-index:1000;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);}
+.pop{overflow:hidden;position:absolute;width:400px;height:360px;left:50%;top:50%;margin-top:-180px;margin-left:-200px;z-index:1001;border-radius:12px;}
+.pop .pop-title{background:url('/static/weipaidai/images/pop_title.png') no-repeat center;width:400px;height:56px;line-height:56px;font-size:18px;color:#fff;text-indent:18px;position:relative;overflow:hidden;}
+.pop .pop-close{background:url('/static/weipaidai/images/pop_close.png') no-repeat center;width:11px;height:12px;position:absolute;top:22px;right:20px;cursor:pointer;}
+.pop .pop-main{background:#fff;height:304px;}
+.pop .pop-tips-center{color:#4f4f4f;font-size:20px;text-align:center;height:60px;font-family:'Microsoft YaHei';padding:0 16px;padding-top:30px;}
+.pop em.icon-true{background:url('/static/weipaidai/images/pop_succ.png')  no-repeat center;width:200px;height:140px;margin:0 auto;display:block;}
+.pop em.icon-false{background:url('/static/weipaidai/images/pop_error.png')  no-repeat center;width:200px;height:140px;margin:0 auto;display:block;}
+.pop em.icon-info{background:url('/static/weipaidai/images/pop_info.png')  no-repeat center;width:200px;height:140px;margin:0 auto;display:block;}
+.pop .next-step{background:url('/static/weipaidai/images/next_step.png')  no-repeat center;width:230px;height:40px;line-height:40px;font-size:16px;text-align:center;color:#fff;border:0;cursor:pointer;margin:0 auto;display:block;letter-spacing:15px;text-indent:15px;}
+.passwordStrength{margin-left:10px;display:none;}
+.passwordStrength b,.passwordStrength span{display:inline-block;vertical-align:middle;line-height:16px;line-height:18px\9;height:16px;font-size:13px;}
+.passwordStrength span{width:45px;text-align:center;background-color:#d0d0d0;border-right:1px solid #fff;}
+.passwordStrength .first.bgStrength{color:#fff;background-color:#EC3701;}
+.passwordStrength .bgStrength{color:#fff;background-color:#F78115;}
+.passwordStrength .last.bgStrength{border-right:none;color:#fff;background-color:#71b83d;}
+
+/*ie低版本样式*/
+#iedi8{position:fixed;top:0;left:0;right:0;min-width:800px;height:40px;line-height:40px;background-color:#f8efb4;z-index:9998;filter:alpha(opacity=80);color:#363636;font-size:12px;text-align:center;}
+#iedi8 i{display:inline-block;width:12px;height:14px;vertical-align:-2px;margin-right:5px;background:url(/static/weipaidai/images/iefixed-sprite.png) no-repeat}
+#iedi8 a{color:#39b94e}
+#iedi8 a:hover{text-decoration:underline}
+.clearfix:after{content:'.';display:block;clear:both;height:0;visibility:hidden;}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+.hide{display:none;}
+.pat10{padding-top:10px;}
+.pat25{padding-top:25px;}
+.container{width:1200px;margin:0 auto;}
+#loginbtn{display:none;}
+#content{width:100%;background-color:#f0f0f0;height:auto;min-width:1200px;min-height:500px;overflow:hidden;}
+.ui-left{float:left;}
+.ui-right{float:right;}
+.ui-more{display:inline-block;float:right;width:auto;margin-right:40px;cursor:pointer;text-align:center;color:#878787;font-size:12px;}
+.mbt30{padding-bottom:30px;}
+.noborder{border:none!important;}
+
+/*公共头部模块 Add  2017-09-05*/
+.header-top{width:100%;height:34px;line-height:34px;background:#f0f0f0;}
+.header-top .nav-warp .nav-time{float:left;text-align:center;padding-right:9px;color:#838383;width:100%;font-size:12px;}
+.header-top .login-warp .login-link{color:#838383;font-size:12px;float:left;}
+.header-top .login-warp a:hover{color:#808ff9;}
+.header-top .login-warp .line-link{background:#ccc;height:10px;width:1px;margin:12px;float:left;}
+.header-main{width:100%;height:70px;background:#fff;color:#454545;border-bottom:1px solid #e8ecf0;position:relative;z-index:999;top:0;left:0;}
+.header-main .ui-header-logo{display:block;height:70px;width:180px;background:url(/static/weipaidai/images/logo.png) no-repeat 0 center;}
+.header-nav{position:relative;right:-5px;}
+.header-main .nav-items{height:70px;}
+.header-main .nav-list{display:block;height:62px;font-size:16px;text-align:right;padding-left:40px;position:relative;z-index:99;}
+.header-main .nav-list .list-link{display:block;height:62px;line-height:62px;color:#4a4a4a;padding:0 5px;outline:none;-moz-outline-style:none;}
+.header-main .list-link:hover{color:#808ff9;border-bottom:3px solid #808ff9;}
+.header-main .nav-list:hover .nav-dropdown{display:block;}
+.header-mall{height:106px;position:relative;z-index:98}
+.header-mall-logo{width:326px;height:106px;background:url(/static/weipaidai/images/mall/malllogo.png) no-repeat 0 center;display:block;}
+.header-search{padding:30px 0 20px;position:relative;}
+.header-search-input{width:360px;height:36px;border:1px solid #6d99f5;border-radius:3px 0 0 3px;padding-left:12px;}
+.search-button{width:70px;height:38px;background:#6d99f5;border:none;border-radius:0 3px 3px 0;cursor:pointer;}
+.search-button i{width:38px;height:38px;margin:0 auto;display:block;background:url(/static/weipaidai/images/mall/seach_icon.png) no-repeat center;}
+.search-hots-fline{width:100%;line-height:28px;height:28px;overflow:hidden;font-size:0;}
+.search-hots-fline .hot0,.search-hots-fline .hot6{color:#ff7100}
+.search-hots-fline a,.search-hots-fline span{font-size:12px;color:#6b6b6b;padding-right:10px;}
+.search-hots-fline a:hover{color:#ff7100;}
+.search-hots-fline a.hot{color:#ff7100;}
+.logout{float:right;font-size:14px;color:#999;line-height:34px;}
+.logout .username{color:#f26752;font-style:normal;}
+.logout .logOutBtn{float:right;display:inline-block;font-size:14px;margin-right:10px;margin-left:15px;color:#999;}
+.nav-items a:active{background-color:transparent!important;}
+.nav-dropdown{position:absolute;top:55px;left:20px;z-index:100;padding:5px 0;background:#fff;border:1px solid #e0e0e0;-webkit-box-shadow:0 0 3px -1px #ccc;-moz-box-shadow:0 0 3px -1px #ccc;box-shadow:0 0 3px -1px #ccc;display:none;}
+.nav-dropdown .nav-dropdown-item{width:84px;font-size:14px;margin:2px 10px;padding:2px 2px;min-width:74px;cursor:pointer;text-align:center;}
+.nav-dropdown .nav-dropdown-item a{display:block;color:#555;}
+.nav-dropdown .nav-dropdown-item:hover{background:#808ff9;}
+.nav-dropdown .nav-dropdown-item:hover a{color:#fff;}
+.nav-dropdown .nav-dropdown-angle{position:absolute;top:-5px;left:46px;}
+.nav-dropdown .nav-dropdown-angle span{display:block;width:9px;height:5px;background:url(/static/weipaidai/images/nav-angle-up.png?v=397eb) no-repeat center center;}
+.page-cont{width:1200px;margin:0 auto;}
+.page-title{color:#454545;font-size:20px;height:60px;line-height:60px;overflow:hidden;position:relative;}
+.page-title span{font-size:14px;color:#999;vertical-align:top;}
+.page-title em.ui-line{width:1px;height:16px;background:#d9d9d9;display:inline-block;margin:0 10px;}
+.loading-mask{position:fixed;width:100%;height:100%;z-index:1100;background:#ffffff;top:0;left:0;opacity:0.5;filter:alpha(opacity:50);}
+.loading{margin-top:-16px;margin-left:-16px;width:32px;height:32px;display:block;position:fixed;top:50%;left:50%;background:url(//www.xiaoying.com/assets/pc/img/loading_3.gif) no-repeat;}
+.util-toast{min-width:240px;line-height:40px;padding:10px;background:rgba(0,0,0,0.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);-webkit-border-radius:10px;border-radius:5px;position:fixed;left:50%;margin-left:-120px;color:#fff;top:45%;font-size:18px;text-align:center;box-shadow:0 0 2px #333;z-index:1110;}
+
+
+/*公共侧边栏模块 add2017-10-20*/
+.cont1200{width:1200px;margin:0 auto;overflow:hidden;position:relative;padding:20px 0;}
+.sidebar{width:250px;background:#fff;float:left;margin-right:26px;}
+.sidebar .sidebar-list{width:100%;line-height:60px;border-bottom:1px solid #f1f1f1;}
+.sidebar .sidebar-a{height:60px;line-height:60px;font-size:16px;color:#494949;display:block;padding:0 22px 0 30px;}
+.sidebar .sidebar-a i{display:block;float:right;background:url('/static/weipaidai/images/disclosure/sildebar_icon.png') no-repeat center;width:30px;height:60px;background-position:0 0;}
+.sidebar li.on .sidebar-a{color:#4772fc;}
+.sidebar li:hover .sidebar-a{color:#4772fc;}
+.sidebar li.on .sidebar-a i{background-position:0 -65px;}
+.sidebar li:hover .sidebar-a i{background-position:0 -65px;}
+.sidebar .first.on .sidebar-a i{background-position:0 -126px;}
+.sidebar .first:hover .sidebar-a i{background-position:0 -126px;}
+.sidebar-ul{height:60px;background:#e7f4ff;padding:15px 0;display:none;}
+.sidebar .first.on .sidebar-ul{display:block;}
+.sidebar-ul a{font-size:14px;color:#494949;height:30px;line-height:30px;padding:0 22px 0 30px;display:block;}
+.sidebar-ul a.on{color:#4772fc;}
+
+/*公共头部模块 尾部  2017-09-06*/
+#footer{width:100%;background:#f8f8f8;height:436px;}
+.fcontent{width:1200px;margin:0 auto;}
+.fabout{width:67px;}
+.faboutms1{font-size:16px;color:#454545;padding-top:42px;padding-bottom:30px;}
+.faboutms2{font-size:14px;color:#666666;line-height:30px;}
+.fhelp{width:67px;padding-left:200px;}
+.fllowus{width:297px;padding-left:170px;}
+.footpic li{margin:0 20px 0 0;text-align:center;width:88px;}
+.footpic li p{text-align:center;line-height:35px;}
+.fllowus1img01{width:85px;height:85px;display:block;line-height:0px;}
+.fllowus1 p{text-align:center;color:#7e7e7e;font-size:12px;line-height:30px;}
+.fphone{margin-left:140px;}
+.fphonems1{color:#454545;font-size:16px;padding-top:40px;}
+.fphonems2{color:#454545;font-size:30px;padding-top:22px;}
+.fphonems3{color:#777676;font-size:14px;padding-top:8px;}
+.fxian{width:1200px;height:1px;background:#e0e0e0;margin:0 auto;margin-top:8px;}
+.records{width:1200px;margin:26px auto 29px auto;font-size:14px;color:#9c9c9c;}
+.fimgz{width:1200px;margin:0 auto;}
+.fimgzms1{width:95px;height:34px;display:inline-block;background:url(/static/weipaidai/images/footer02.png) no-repeat center center;}
+.fimgzms2{width:79px;height:35px;display:inline-block;margin-left:15px;background:url(/static/weipaidai/images/footer03.png) no-repeat;}
+.fimgzms3{width:41px;height:37px;display:inline-block;margin-left:15px;background:url(/static/weipaidai/images/footer04.png) no-repeat center center;}
+.fimgzms4{width:107px;height:36px;display:inline-block;margin-left:15px;background:url(/static/weipaidai/images/footer05.png) no-repeat center center;}
+.fimgzms5{width:104px;height:36px;display:inline-block;margin-left:15px;background:url(/static/weipaidai/images/footer06.png) no-repeat center center;}
+.fimgzms6{width:125px;height:39px;display:inline-block;margin-left:15px;background:url(/static/weipaidai/images/footer07.png) no-repeat center center;}
+#kx_verify{display:inline-block;width:109px;height:38px;margin-left:10px;}
+#cnzz_stat_icon_1263094627{display:inline-block;padding-top:18px;padding-left:4px;}
+.bscg-loading{background:url('/static/weipaidai/images/bscg/bscg_loading.gif') no-repeat center;height:803px;background-size:auto 100%;}
+.bscg-loading.error{background-image:url('/static/weipaidai/images/bscg/bscg_error.png');}
+
+/*分页 add 2017-09-07*/
+.page{width:100%;height:100px;margin:0 auto;margin-bottom:30px;position:relative;}
+.demo-image{width:100%;}
+.M-box,.M-box1,.M-box2,.M-box3,.M-box4{position:absolute;text-align:center;zoom:1;right:20px;top:33px;}
+.M-box:before,.M-box:after,.M-box1:before,.M-box1:after,.M-box2:before,.M-box2:after,.M-box3:before,.M-box3:after,.M-box4:before,.M-box4:after{content:"";display:table;}
+.M-box:after,.M-box1:after,.M-box2:after,.M-box3:after,.M-box4:after{clear:both;overflow:hidden;}
+.M-box span,.M-box1 span,.M-box2 span,.M-box3 span,.M-box4 span{float:left;margin:0 5px;width:30px;height:30px;line-height:30px;color:#bdbdbd;font-size:14px;}
+.M-box .active,.M-box1 .active,.M-box2 .active,.M-box3 .active,.M-box4 .active{float:left;margin:0 5px;width:30px;height:30px;line-height:30px;background:#808ff9;color:#fff;font-size:14px;border:1px solid #808ff9;border-radius:3px;}
+.M-box a,.M-box1 a,.M-box2 a,.M-box3 a,.M-box4 a{float:left;margin:0 5px;width:30px;height:30px;line-height:30px;background:#fff;border:1px solid #ebebeb;color:#bdbdbd;font-size:14px;border-radius:3px}
+.M-box a:hover,.M-box1 a:hover,.M-box2 a:hover,.M-box3 a:hover,.M-box4 a:hover{color:#fff;background:#808ff9;}
+.M-box .next,.M-box .prev,.M-box1 .next,.M-box1 .prev{font-family:"Simsun";font-size:16px;font-weight:bold;}
+.M-box .now,.count{padding:0 5px;color:#f00;}
+.M-box .eg img{max-width:800px;min-height:500px;}
+.M-box input{float:left;margin:0 5px;width:30px;height:30px;line-height:30px;text-align:center;background:#fff;border:1px solid #ebebeb;outline:none;color:#bdbdbd;font-size:14px;}
+
+/*分页 结束 add 2017-09-07*/
+
+/*login等页面上的footer */
+.content{background:url('/static/weipaidai/images/login01.png') top repeat;width:100%;height:713px;position:relative;}
+.ufooter{width:100%;height:129px;position:relative;bottom:0;background:#4f515c;overflow:hidden;}
+.ufooterc{width:1200px;margin:0 auto;height:129px;}
+.ufooterc_ul{width:380px;margin:0 auto;margin-top:38px;}
+.ufooterc_li a{font-size:14px;color:#cccbcb;display:block;}
+.ufooterc_li i{width:1px;height:11px;background:#747474;margin:5px 11px 0 12px;}
+.ufooterwz{color:#8c8c8c;font-size:14px;text-align:center;margin-top:9px;}
+.badress{color:gray;}
+.badress:hover{color:gray;}
+.badressspan{padding-left:5px;}
+.actbanner{width:100%;overflow:hidden;position:relative;}
+.actbanner .actpic{background-repeat:no-repeat;background-size:auto 100%;background-position:center;}
+
+/*720分辨率（大于480px，小于767px）*/
+@media only screen and (min-width:480px) and (max-width:767px){
+    .container{width:970px;}
+}
+
+/*880分辨率（大于768px，小于959px）*/
+@media screen and (min-width:768px) and (max-width:1099px){
+    .container{width:800px;padding:0 20px;}
+}
+
+/*1100分辨率（大于960px，小于1199px）*/
+@media screen and (min-width:1100px) and (max-width:1199px){
+    .container{width:900px;margin:0 auto;}
+}
+
+/*1280分辨率以上（大于1200px）*/
+@media screen and (min-width:1200px){
+    .container{width:1200px;margin:0 auto;}
+}

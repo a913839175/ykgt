@@ -1,0 +1,28 @@
+@charset "utf-8";
+.contentright{width:890px;float:right;background:#fff;padding:16px;}
+.contactbanner{width:892x;height:221px;background:url(/static/weipaidai/images/disclosure/disclosure06.png) no-repeat center center;}
+.IPC{width:892px;margin-top:28px;}
+.IPCleft{width:564px;margin-left:32px;}
+.IPCleft1{color:#383838;font-size:20px;margin-top:-8px;margin-bottom:8px;}
+.IPCleft2{font-size:14px;color:#afafaf;text-align:justify;}
+.IPCright{width:244px;height:133px;display:block;margin-left:13px;}
+.ICPLC{width:892px;line-height:37px;}
+.ICPLC01{width:190px;height:37px;border-radius:30px;background:#808ff9;text-align:center;line-height:37px;font-size:20px;color:#fff;margin-left:32px;}
+.ICPLC02{color:#6e80ff;font-size:20px;padding-left:11px;}
+.ICP1-ul{width:892px;margin-left:32px;}
+.ICP1-liimg{width:62px;height:62px;background:url(/static/weipaidai/images/disclosure/riskcontrol01.png) no-repeat;}
+.ICP1-li{margin-bottom:25px;}
+.ICP1-li:first-child{margin-top:30px;}
+.ICP1-liright{width:747px;padding-left:11px;}
+.ICP1-liright1{font-size:18px;color:#333333;}
+.ICP1-liright2{font-size:14px;color:#afafaf;padding-top:2px;}
+.ICP1-liimg0{background-position:0 0;}
+.ICP1-liimg1{background-position:0 -62px;}
+.ICP1-liimg2{background-position:0 -124px;}
+.ICP1-liimg3{background-position:0 -186px;}
+.ICP1-liimg4{background-position:0 -248px;}
+.ICP1-liimg5{background-position:0 -310px;}
+.ICP1-liimg6{background-position:0 -372px;}
+.ICP1-liimg7{background-position:0 -434px;}
+.ICP1-liimg8{background-position:0 -496px;}
+.mrb40{margin-bottom:40px;}

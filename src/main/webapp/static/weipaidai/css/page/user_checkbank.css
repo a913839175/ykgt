@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* 公共样式 */
+.fl{float:left;}
+.fr{float:right;}
+body{background:#f0f0f0!important;}
+.contentright .conttile{height:59px;line-height:59px;color:#545454;font-size:18px;border-bottom:1px solid #eeeeee;padding-left:36px;}
+.bankbj{width:957px;height:829px;display:block;background:url(/static/weipaidai/images/checkbank02.jpg);margin:5px auto;overflow:hidden;}
+.bankcardbj{width:315px;height:170px;background:url(/static/weipaidai/images/checkbank01.png);margin:104px auto 0 auto;}
+.bankimg{width:176px;height:25px;display:block;padding-top:31px;padding-left:28px;}
+.bankcred{font-size:16px;color:#fff;padding-top:25px;padding-left:28px;}
+.bankid{color:#ffffff;font-size:18px;font-weight:bold;padding-top:11px;padding-left:28px;}
+.pal11{padding-left:11px;}
+.bankms01{color:#a2a2a2;font-family:12px;text-align:center;line-height:24px;}
+.bankms02{color:#3fb9e0;}
+.pat10{padding-top:10px;}

@@ -1,0 +1,27 @@
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#a9a9a9;font-size:12px;font-family:"宋体";line-height:18px;}
+input:-moz-placeholder,textarea:-moz-placeholder{color:#a9a9a9;font-size:12px;font-family:"宋体";line-height:18px;}
+input::-moz-placeholder,textarea::-moz-placeholder{color:#a9a9a9;font-size:12px;font-family:"宋体";line-height:18px;}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#a9a9a9;font-size:12px;font-family:"宋体";line-height:18px;}
+#iframe{width:820px;font-size:12px;}
+.form-box{position:relative;margin-top:20px;}
+.form-box .item{position:relative;padding-bottom:10px;zoom:1;text-align:left;color:#333333;}
+.form-box .item-title{line-height:26px;}
+.form-box .item-label{display:inline;float:left;width:100px;text-align:right;height:26px;line-height:26px;margin-right:6px;}
+.form-box .item-label i{color:red;font-style:normal;padding-left:4px;}
+.form-box .item-title .item-label{color:#fc6210;margin-right:10px;}
+.item-select{float:left;margin-right:10px;user-select:none;width:72px;height:26px;line-height:26px;border:1px solid #ccc;font-size:12px;padding:0 8px;outline:0;position:relative;cursor:pointer;}
+.item-select i.dropdown{position:absolute;top:11px;right:8px;width:10px;height:5px;background:url(/static/weipaidai/images/select.png) -10px -25px no-repeat;}
+.citySelect{width:283px;}
+.item-textarea-box,.item-input-box{display:inline-block;overflow:hidden;}
+.item-textarea{display:block;margin:0;padding:3px;width:392px;height:62px;border:1px solid #afafaf;font-size:12px;color:#333333;overflow:auto;vertical-align:top;}
+.item-error{display:inline-block;height:26px;line-height:26px;vertical-align:top;}
+.item-textarea-error{display:inline-block;}
+.item-textarea-error .Validform_wrong,.item-error .Validform_wrong{color:#ff4343;margin-left:4px;}
+.item-zipcode{width:206px;}
+.item-input{border:1px solid #afafaf;padding:3px;width:200px;height:18px;line-height:18px;vertical-align:middle;padding-left:4px;}
+.phone-slt{width:100px;}
+.item-warp{float:left;margin-right:4px;}
+.item-warp .item-input{width:65px;}
+.form-box .item-set-default{line-height:26px;padding-left:105px;}
+.form-box .i-chk,.form-box label{vertical-align:middle;}
+.form-box .btn{display:inline-block;zoom:1;height:28px;line-height:28px;padding:0 20px;color:#FFF;font-weight:700;font-size:14px;text-align:center;background:#ff4001;border:0;border-radius:3px;cursor:pointer;margin-left:105px;}

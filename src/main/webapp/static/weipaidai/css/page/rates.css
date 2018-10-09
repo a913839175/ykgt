@@ -1,0 +1,20 @@
+@charset "utf-8";
+.contentright{width:890px;float:right;background:#fff;padding:16px;}
+.contentright h2{width:100%;height:74px;line-height:74px;text-align:center;font-size:24px;color:#212121;}
+.contentright h2 i{width:26px;height:2px;display:inline-block;background:#212121;vertical-align:middle;margin:0 10px;}
+.trade_null{padding:40px 0;text-align:center;}
+.certList{width:920px;}
+.cert-list{width:280px;height:270px;float:left;margin:0 26px 10px 0;}
+.list-pic{width:100%;height:220px;overflow:hidden;}
+.list-pic:hover img{opacity:0.8;}
+.list-title{width:100%;text-align:center;height:50px;line-height:50px;font-size:16px;color:#5e5e5e;}
+table{width:838px;margin:0 auto;margin-top:30px;margin-bottom:120px;}
+.t1{width:838px;}
+.t1 td{width:22.4%;text-align:center;height:48px;border:1px solid #dddddd;}
+.t1 td+td{width:77.6%;text-align:left;padding-left:31px;}
+.t2{width:838px;}
+.t2 td{width:10.3%;text-align:center;height:48px;border:1px solid #dddddd;}
+.t2 td+td{width:12.1%;text-align:center;}
+.t2 td+td+td{width:77.6%;text-align:left;padding-left:31px;}
+.t3 td{width:12.1%;text-align:center;height:48px;border:1px solid #dddddd;}
+.t3 td+td{width:77.6%;text-align:left;padding-left:31px;}

@@ -1,0 +1,149 @@
+.maincontent {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.protitle {
+    color: #8e8d8d;
+    font-size: 12px;
+    padding: 12px 0;
+}
+.record-cont{
+    background: #fff;
+    padding: 40px 50px 250px;
+}
+.record-thead{
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #e7e7e7;
+    background: #f5f5f5; 
+}
+.record-thead span{
+    display: inline-block;
+    color: #666666;
+    font-size: 12px;
+}
+.th-span1{
+    width: 425px;
+    margin-left: 82px;
+}
+.th-span2{
+    width: 160px;
+}
+.record-list{
+    height: 138px;
+    border: 1px solid #e7e7e7;
+    border-top: none; 
+}
+
+.record-list-warp{
+    overflow: hidden;
+}
+.record-list-img{
+    float: left;
+}
+.record-list-img img{
+    margin:20px;
+    width: 110px;
+    height: 100px;
+    background: #f4f4f4;
+}
+.record-list-item{
+    float: left;
+    width: 362px;
+    padding-top: 20px;
+}
+.record-list-title{
+    width: 250px;
+    font-size: 12px;
+    color: #4a4a4a;
+}
+.record-list-desc{
+    width: 186px;
+    font-size: 12px;
+    color: #989898;
+    margin-top: 14px;
+}
+.record-list-p{
+    float: left;
+    height: 140px;
+    line-height: 140px;
+}
+.record-list-num{
+    width: 166px;
+    color: #737373;
+}
+.record-list-wb{
+    width: 166px;
+    font-size: 16px;
+    color: #ff4400;
+}
+.record-list-status{
+    width: 130px;
+    font-weight: bold;
+    color: #6d99f5;
+}
+.record-list-link{
+    padding: 6px 15px;
+    border:1px solid #bfbfbf;
+    border-radius: 2px;
+    color: #a9a9a9;
+    font-size: 12px; 
+}
+.order-info{
+    margin-top: 26px;
+    height: 228px;
+    border: 1px solid #e7e7e7;
+}
+.order-list-time{
+    font-size: 12px;
+    font-weight: bold;
+    color: #636363;
+    padding-left: 20px;
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px solid #e7e7e7;
+    background: #f5f5f5;
+}
+.order-list-time span{
+    margin-left: 20px;
+    color: #55a4df;
+    font-weight: 500;
+}
+.order-info-cont{
+    padding: 18px 25px;
+}
+.order-info-cont p{
+    font-size: 12px;
+    color: #545454;
+    margin-bottom:14px;
+}
+.order-info-logistics{
+    border-top: 1px solid #e7e7e7;
+}
+.order-info-logistics p{
+    margin-top:12px;
+    margin-bottom: 0;
+}
+.breaditem{
+    width: 1200px;
+    margin: 0 auto;
+    height: 42px;
+    line-height: 42px;
+}
+.breadcrumb{
+    overflow: hidden;
+}
+.breadcrumb li{  
+    float: left;
+}
+.breadcrumb li a{
+    font-size: 12px;
+    color: #8e8d8d;
+}
+.breadcrumb li i{
+    font-size: 13px;
+    font-style: normal;
+    color: #8e8d8d;
+    padding: 0 3px;  
+}

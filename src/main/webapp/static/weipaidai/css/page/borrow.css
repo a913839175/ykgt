@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* banner图 add 20170908 */
+.borrow{width:100%;position:relative;overflow:hidden;}
+
+/* 借款流程 add 20170908 */
+.borrowbanner{width:100%;height:380px;background:url(/static/weipaidai/images/borrow/borrowbanner02.png?v=20180627) no-repeat center center;}
+.borrowp-ul{width:1200px;height:115px;overflow:hidden;margin:0 auto;background:#fff;margin-top:-54px;}
+.borrowpliimg01{width:115px;height:115px;display:block;}
+.mal30{margin-left:30px;}
+.borrowplims1{width:176px;height:115px;padding-left:5px;}
+.borrowplims2{font-size:18px;color:#454545;padding-top:37px;padding-left:5px;}
+.borrowplims3{font-size:14px;color:#a9a9a9;padding-top:4px;padding-left:5px;}
+.borrowplims4{width:181px;height:115px;padding-left:5px;}
+.borrowplims5{width:180px;height:115px;padding-left:5px;}
+.borrowplims6{height:95px;width:150px;padding-left:5px;}
+
+/* 借款种类 add 20170908 */
+.borrspecies{width:100%;background:#f0f0f0;}
+.borrspeciesc{width:1200px;margin:0 auto;}
+.borrspms1{height:66px;font-size:20px;color:#454545;}
+.borrspp3{line-height:66px;}
+.borrspp1{width:1px;height:13px;background:#d9d9d9;margin-left:11px;margin-top:31px;}
+.borrspp2{font-size:14px;color:#a3a3a3;margin-left:10px;padding-top:27px;}
+.borrsp-ul{width:1200px;overflow:hidden;}
+.borrsp-li{width:1200px;height:250px;background:#fff;overflow:hidden;margin-bottom:20px;}
+.borrsp-lims1{font-size:18px;color:#6167ff;margin-top:26px;margin-left:26px;}
+.cpms{width:1120px;margin-left:26px;margin-top:34px;}
+.cpmsimg1{width:179px;height:133px;display:block;}
+.cpmswz1{width:725px;margin-left:38px;height:40px;line-height:40px;}
+.cpmswz2{font-size:26px;color:#27323d;margin-bottom:15px;}
+.cpmswz3{color:#2a343f;font-size:18px;height:28px;line-height:28px;width:725px;}
+.cpmswz4{color:#2a343f;font-size:18px;height:28px;line-height:28px;width:725px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.applyfor{width:162px;height:44px;background:#808ff9;text-align:center;line-height:44px;font-size:16px;color:#fff;margin-top:50px;border-radius:6px;cursor:pointer;}
+.applyfor:hover{color:#fff;background:#8fadfc;}
+.page{width:1200px;height:95px;margin:0 auto;position:relative;top:-13px;}
+.FAQ{width:100%;height:442px;background:#fff;}
+.faqc{width:1200px;margin:0 auto;overflow:hidden;height:442px;}
+.faqcms1{color:#6476f3;font-size:26px;text-align:center;padding-top:34px;}
+.faqcms2{font-size:16px;color:#484848;text-align:center;padding-top:3px;}
+.faqc_ul{width:1092px;margin:0 auto;}
+.faqc_li{width:473px;}
+.faqc_liwz1{font-size:18px;color:#141d26;}
+.faqc_liwz2{font-size:14px;color:#555555;padding-top:18px;}
+.mrt40{margin-top:40px;}
+.mrb38{margin-bottom:38px;}
+.faqc_liwz3{font-size:14px;color:#626262;text-align:center;padding-top:43px;}
+.faqc_liwz3 a{color:#6476f3;}
+.borrow-box{background: #fff;padding: 70px;margin-bottom: 56px;}
+.borrow-form{padding: 50px 180px 80px;background:#e7f4ff;}
+.form-group{background:#fff;margin-bottom:20px;padding:10px;position: relative;}
+.form-group label{font-size:18px;color:#454545;display:inline-block;padding:0 25px 0 40px;border-right:1px solid #cacaca;}
+.form-input{display:inline-block;width:260px;height: 26px;line-height: 26px;padding: 5px 14px;margin-left:25px;font-size:16px;border:1px solid #bfbfbf;border-radius:2px;}
+.form-span{font-size: 14px;color: #81beef;margin-left: 8px;}
+.form-textarea{display: inline-block;margin-left:25px;padding:15px;vertical-align: top;height: 150px;width: 400px;font-size: 18px;border:1px solid #bfbfbf;border-radius:2px;}
+.form-use{padding: 18px 10px 45px;}
+.form-button{float:right;background: #808ff9;color: #fff;font-size:16px;width: 160px;height: 40px;line-height: 40px;text-align: center;border: none;outline: none;border-radius: 5px; cursor: pointer;}
+.dlerror {
+    height: 30px;
+    line-height: 30px;
+    color: #ff4343;
+}
+.accountms{font-size: 16px;color: #666666;line-height: 26px;position: absolute;left: 437px;top: 15px;}

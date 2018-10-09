@@ -1,0 +1,173 @@
+@charset "utf-8";
+.index{
+    color: #8e8d8d;;
+}
+.maincontent{
+    width: 1200px;
+    margin: 0 auto;
+}
+.protitle{
+    color: #8e8d8d;
+    font-size: 12.8px;
+    padding: 12px 0;
+}
+.probanner{
+    width: 1200px;
+    height:310px;
+    background: url(/static/weipaidai/images/mall/productinfo01.jpg) center center;
+}
+.promain{
+    width: 1200px;
+    background: #fff;
+}
+.proclassify{
+    width: 1155px;
+    height: 53px;
+    border-bottom: 1px dashed #d3d3d3;
+    margin: 0 auto;
+    padding-top: 5px; 
+}
+.proclassifyms{
+    width: 80px;
+    height: 53px;
+    padding-left: 2px;
+    font-size: 12.8px;
+    color: #8e8d8d;
+    line-height: 53px;
+}
+.proclassifyul{
+    width: 1070px;
+}
+.proclassifyp01{
+    color: #af5054;
+    font-size: 12.8px;
+    line-height: 53px;
+    cursor: pointer;
+}
+.proclassifyli{
+    margin-left: 20px;
+    line-height: 53px;
+    font-size: 14px;
+    color: #222222;
+    cursor: pointer;
+}
+.proclassify02{
+    width: 1155px;
+    height: 53px;
+    border-bottom: 1px solid #d3d3d3;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.infomain{
+    width:100%;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.infotitlez{
+    width: 1192px;
+    margin: 0 auto;
+}
+.infotitle{
+    margin: 0 auto;
+    text-align: center;
+    padding: 45px 0;
+}
+.infotitleimg01{
+    width: 36px;
+    height: 38px;
+    display: inline-block;
+}
+.infotitlep1{
+    font-size: 24px;
+    color: #333333;
+    line-height: 38px;
+    padding-left: 13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.pro-boxs{
+    margin-left: 5px;
+    overflow: hidden;
+}
+.pro-boxs li{
+    width: 284px;
+    height:316px;
+    margin:0 0 0 10px;
+    position: relative;
+    float: left;
+}
+.pro-boxsbj{
+    width: 284px;
+    height:250px;
+    background: #e8e7ec;
+  /*  overflow: hidden; */   
+}
+.pro-boxsbj img{
+    width: 284px;
+    height:250px;
+    /*-webkit-transition: -webkit-transform .4s ease;
+    transition: -webkit-transform .4s ease;
+    -moz-transition: transform .4s ease,-moz-transform .4s ease;
+    transition: transform .4s ease;
+    transition: transform .4s ease,-webkit-transform .4s ease,-moz-transform .4s ease;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);*/
+}
+.pro-boxs li:hover img {
+   /* -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);*/
+    filter:alpha(opacity=80);       /* IE */
+    -moz-opacity:0.8;              /* 老版Mozilla */
+    -khtml-opacity:0.8;              /* 老版Safari */
+    opacity: 0.8;           /* 支持opacity的浏览器*/
+}
+.pro-boxs li .pro-list-title{
+    font-size: 14px;
+    color: #6b6b6b;
+    width: 190px;
+    height: 44px;
+    line-height: 44px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.pro-boxs li .pro-list-title:hover{
+    color: #ff684b;
+}
+.pro-boxs li .pro-list-wb{
+    font-size: 14px;
+    color: #6d99f5;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    position: relative;
+    top: -10px;
+}
+.pro-list-btn{
+    position: absolute;
+    bottom: 24px;
+    right: 0;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ff684b;
+    border: 1px solid #ff684b;
+    background: #fff;
+}
+.ui-goTop{
+    position: fixed;
+    bottom: 40px;
+    right: 100px;
+    width: 53px;
+    height: 53px;
+    display: none;
+    cursor: pointer;
+    background: url(/static/weipaidai/images/backtop.png) no-repeat;
+    z-index: 999;
+    display: none;
+}

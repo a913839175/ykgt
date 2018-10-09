@@ -1,0 +1,32 @@
+@charset "utf-8";
+#content{overflow:hidden;}
+.help{width:1200px;margin:0 auto;background:#fff;margin-top:30px;}
+.helpms01{font-size:22px;color:#333333;padding:18px 0px 19px 51px;}
+.ulleft{width:247px;height:838px;}
+.lileft{width:242px;height:59px;text-align:center;line-height:59px;border-left:4px solid #FFF;border-right:1px solid #ededed;border-top:1px solid #ededed;}
+.lilefthover{border-left:4px solid #808ff9;border-right:1px solid #fff;}
+.lileft a{width:242px;height:59px;display:block;font-size:16px;color:#494949;}
+.lileft-last-child{border-bottom:1px solid #ededed;}
+.helpright{width:953px;border-top:1px solid #ededed;}
+.wentiz{width:888px;margin-top:29px;margin-left:34px;}
+.wentili{width:888px;margin-bottom:10px;}
+.wentip1{width:888px;height:50px;background:#f0f0f0;cursor:pointer;}
+.wentip1wz{color:#616161;font-size:16px;line-height:50px;font-weight:700;padding-left:20px;}
+.wentip1img{width:14px;height:14px;background:url(/static/weipaidai/images/help01.png) no-repeat;margin-top:18px;margin-right:18px;cursor:pointer;}
+.wentip1imgactive{background-position:0 -14px;}
+.wentip2{width:886px;border:1px solid #e6e6e6;}
+.wentip2wz{width:856px;margin:0 auto;padding-top:18px;padding-bottom:16px;}
+.wentip2wzxu{width:856px;margin:0 auto;padding-top:18px;padding-bottom:16px;border-bottom:1px dashed #dedede;}
+.wentip3{width:856px;margin-top:7px;}
+.wentip3_1{width:26px;height:14px;display:block;margin-top:3.5px;}
+.wentip3_2{width:830px;color:#6f6f6f;font-size:14px;line-height:20px;text-align:justify;}
+.wentip3_3{width:830px;color:#6f6f6f;font-size:14px;line-height:20px;}
+.bank_limit_table{margin-top:10px;width:630px;border-collapse:collapse;border-spacing:0;}
+.tbody01{display:table-row-group;vertical-align:middle;border-color:inherit;}
+.bank_limit_table td{border-bottom-color:#ddd;border-bottom-style:solid;border-bottom-width:1px;border-image-outset:0 0 0 0;border-image-repeat:stretch stretch;border-image-slice:100% 100% 100% 100%;border-image-source:none;border-image-width:1 1 1 1;border-left-color:#ddd;border-left-style:solid;border-left-width:1px;border-right-color:#ddd;border-right-style:solid;border-right-width:1px;border-top-color:#ddd;border-top-style:solid;border-top-width:1px;font-size:12px;height:32px;padding-left:3px;padding-right:3px;text-align:center;vertical-align:middle;}
+.bank_limit_table{width:630px;margin-top:10px;}
+.tbody02{display:table-row-group;vertical-align:middle;border-color:inherit;}
+.bank_limit_table td{border-bottom-color:#ddd;border-bottom-style:solid;border-bottom-width:1px;border-image-outset:0 0 0 0;border-image-repeat:stretch stretch;border-image-slice:100% 100% 100% 100%;border-image-source:none;border-image-width:1 1 1 1;border-left-color:#ddd;border-left-style:solid;border-left-width:1px;border-right-color:#ddd;border-right-style:solid;border-right-width:1px;border-top-color:#ddd;border-top-style:solid;border-top-width:1px;font-size:12px;height:32px;padding-left:3px;padding-right:3px;text-align:center;vertical-align:middle;}
+.colortr{background:#6fc3e7;color:#fff;}
+.zhushi{padding-left:170px;padding-top:20px;}
+.width667{width:627px;}
